@@ -1,0 +1,6 @@
+
+**** Build of configuration Debug for project i8080_slave_demo ****
+
+xmake CONFIG=Debug all 
+Using modules: module_kentec_i8080_slave
+Build Complete

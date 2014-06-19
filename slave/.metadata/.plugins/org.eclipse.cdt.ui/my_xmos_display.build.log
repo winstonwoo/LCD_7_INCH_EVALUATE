@@ -1,0 +1,5 @@
+
+**** Build of configuration Default for project my_xmos_display ****
+
+make all 
+make: *** 没有规则可以创建目标“all”。 停止。

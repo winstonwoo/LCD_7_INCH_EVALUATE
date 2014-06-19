@@ -1,0 +1,11 @@
+
+**** Build of configuration Debug for project app_kentec_display_i8080 ****
+
+xmake CONFIG=Debug all 
+Using modules: module_display_controller module_kentec_i8080_slave module_lcd module_sdram
+WARNING: Duplicate header found: lcd_conf_example.h
+"WARNING: Found in: J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_display_controller/lcd_conf_example.h J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/lcd_conf_example.h"
+WARNING: Duplicate header found: sdram_conf_example.h
+"WARNING: Found in: J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_display_controller/sdram_conf_example.h J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_sdram/sdram_conf_example.h"
+Creating app_kentec_display_i8080_Debug.xe
+Build Complete

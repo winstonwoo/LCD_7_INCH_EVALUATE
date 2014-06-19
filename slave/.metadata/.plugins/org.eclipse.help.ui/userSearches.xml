@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<engines>
+   <engine 
+      id="org.eclipse.help.ui.infoCenter.user.1"
+      engineTypeId="org.eclipse.help.ui.infoCenter"
+      label="Information Center"
+>
+      <description>
+Searches a remote information center
+      </description>
+   </engine>
+   <engine 
+      id="org.eclipse.help.ui.web.user.1"
+      engineTypeId="org.eclipse.help.ui.web"
+      label="Web Search"
+>
+      <description>
+Performs a general-purpose Web search
+      </description>
+   </engine>
+</engines>

@@ -1,0 +1,6 @@
+
+**** Build of configuration Debug for project app_text_display_slave ****
+
+xmake CONFIG=Debug all 
+Using modules: module_control_unit module_kentec_i8080_slave module_kentec_text_display module_lcd
+Build Complete

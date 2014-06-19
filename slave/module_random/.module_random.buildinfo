@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<allbuildresults>
+<buildresults component="module_random" packagename="xm-local-sc_util(1.0.3rc0)" packageversion="1.0.3rc0" toolsversion="latest">
+<buildresult>
+<configuration/>
+<resourceusage>
+<resourceusageitem id="cores" value="0"/>
+<resourceusageitem id="memory" value="0"/>
+<resourceusageitem id="codememory" value="40"/>
+<resourceusageitem id="datamemory" value="4"/>
+<resourceusageitem id="ports1bit" value="0"/>
+<resourceusageitem id="ports4bit" value="0"/>
+<resourceusageitem id="ports8bit" value="0"/>
+<resourceusageitem id="ports16bit" value="0"/>
+<resourceusageitem id="ports32bit" value="0"/>
+<resourceusageitem id="clocks" value="0"/>
+<resourceusageitem id="chanends" value="0"/>
+<resourceusageitem id="timers" value="0"/>
+</resourceusage>
+</buildresult>
+</buildresults>
+</allbuildresults>

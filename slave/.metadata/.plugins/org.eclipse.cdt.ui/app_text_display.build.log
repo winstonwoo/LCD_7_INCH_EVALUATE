@@ -1,0 +1,6 @@
+
+**** Build of configuration Debug for project app_text_display ****
+
+xmake CONFIG=Debug all 
+Using modules: module_kentec_text_display module_lcd
+Build Complete

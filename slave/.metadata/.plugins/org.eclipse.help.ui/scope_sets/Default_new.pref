@@ -1,0 +1,5 @@
+#Tue Jun 03 17:22:58 CST 2014
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+org.eclipse.help.ui.infoCenter.user.1.master=true
+org.eclipse.help.ui.localSearch.workingSet=Default

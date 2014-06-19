@@ -1,0 +1,9 @@
+!SESSION 2014-06-03 14:21:36.657 -----------------------------------------------
+eclipse.buildId=I20080702-1800
+java.version=1.6.0_10-rc2
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2014-06-03 14:22:31.284
+!MESSAGE Referenced part does not exist yet: org.eclipse.jdt.ui.PackageExplorer.

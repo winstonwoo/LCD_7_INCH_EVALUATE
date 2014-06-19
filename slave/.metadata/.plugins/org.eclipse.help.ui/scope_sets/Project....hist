@@ -1,0 +1,9 @@
+#Tue Jun 17 15:23:39 CST 2014
+__DEFAULT__=false
+org.eclipse.help.ui.web.user.1.url=www.xmos.com
+org.eclipse.help.ui.localSearch.master=true
+org.eclipse.help.ui.localSearch.workingSet=Default
+org.eclipse.help.ui.infoCenter.user.1.master=true
+org.eclipse.help.ui.infoCenter.user.1.url=www.xmos.com
+org.eclipse.help.ui.web.user.1.master=true
+expression=Project...
