@@ -1,8 +1,8 @@
-# 1 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+# 1 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
 # 1 "platform.h" 1 3
 # 21 "platform.h" 3
-# 1 "J://ProjectEstimated2014//XMOS//HMI//REF_8080_RGB//HMI//slave//app_text_display//.build_Debug//XS1-L01A-TQ128-C5.h" 1
-# 4 "J://ProjectEstimated2014//XMOS//HMI//REF_8080_RGB//HMI//slave//app_text_display//.build_Debug//XS1-L01A-TQ128-C5.h"
+# 1 "E://Pro2014//xmos//SW//LCD_7_INCH_EVALUATE//slave//app_text_display//.build_Debug//XS1-L01A-TQ128-C5.h" 1
+# 4 "E://Pro2014//xmos//SW//LCD_7_INCH_EVALUATE//slave//app_text_display//.build_Debug//XS1-L01A-TQ128-C5.h"
 # 1 "xs1.h" 1 3
 # 19 "xs1.h" 3
 # 1 "timer.h" 1 3
@@ -303,13 +303,13 @@ unsigned get_tile_id(tileref t);
 unsigned get_logical_core_id(void);
 # 1934 "xs1.h" 3
 extern int __builtin_getid(void);
-# 5 "J://ProjectEstimated2014//XMOS//HMI//REF_8080_RGB//HMI//slave//app_text_display//.build_Debug//XS1-L01A-TQ128-C5.h" 2
-# 13 "J://ProjectEstimated2014//XMOS//HMI//REF_8080_RGB//HMI//slave//app_text_display//.build_Debug//XS1-L01A-TQ128-C5.h"
+# 5 "E://Pro2014//xmos//SW//LCD_7_INCH_EVALUATE//slave//app_text_display//.build_Debug//XS1-L01A-TQ128-C5.h" 2
+# 13 "E://Pro2014//xmos//SW//LCD_7_INCH_EVALUATE//slave//app_text_display//.build_Debug//XS1-L01A-TQ128-C5.h"
 extern tileref tile[1];
 # 22 "platform.h" 2 3
-# 2 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc" 2
+# 2 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc" 2
 # 1 "xs1.h" 1 3
-# 3 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc" 2
+# 3 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc" 2
 # 1 "lcd.h" 1
 # 3 "lcd.h"
 # 1 "xs1.h" 1 3
@@ -347,7 +347,7 @@ typedef struct lcd_ports {
   __clock_t  clk_lcd;
 } lcd_ports;
 # 26 "lcd.h"
-void lcd_server(chanend client, lcd_ports &ports);
+void lcd_server(chanend c_client, lcd_ports &ports);
 # 32 "lcd.h"
 void lcd_init(chanend c_lcd);
 # 41 "lcd.h"
@@ -367,7 +367,7 @@ static inline void lcd_update_p(chanend c_lcd, unsigned buffer) {
 static inline void lcd_req(chanend c_lcd) {
   __builtin_chkct(c_lcd, 0x1 ) ;
 }
-# 4 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc" 2
+# 4 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc" 2
 # 1 "print.h" 1 3
 # 34 "print.h" 3
 int printchar(char value);
@@ -401,7 +401,7 @@ int printllonghexln(unsigned long long value);
 int printstr(const char (& alias s)[]);
 # 133 "print.h" 3
 int printstrln(const char (& alias s)[]);
-# 5 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc" 2
+# 5 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc" 2
 # 1 "stdlib.h" 1 3
 # 4 "stdlib.h" 3
 # 1 "stdlib.h" 1 3
@@ -770,14 +770,14 @@ long long _safe_strtoll(const char n[], char * unsafe (&?endptr)[1], int base);
 unsigned long long _safe_strtoull(const char n[], char * unsafe (&?endptr)[1], int base);
 int _safe_system(const char (&?string)[]);
 # 6 "stdlib.h" 2 3
-# 6 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc" 2
+# 6 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc" 2
 
 
 
 void lcd_init(chanend c_lcd) {
   __builtin_outct(c_lcd, 0x1 ) ;
 }
-# 13 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+# 13 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
 #pragma unsafe arrays
 void lcd_server(chanend c_lcd, struct lcd_ports &p) {
   unsigned time;
@@ -791,12 +791,12 @@ void lcd_server(chanend c_lcd, struct lcd_ports &p) {
   __builtin_set_port_clk(p.lcd_data_enabled, p.clk_lcd) ;
 
   __builtin_set_port_inv (p.lcd_clk, 0x600f ) ;
-# 35 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+# 35 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
   __builtin_start_clock(p.clk_lcd) ;
 
   __builtin_chkct(c_lcd, 0x1 ) ;
   __builtin_outct(c_lcd, 0x1 ) ;
-# 45 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+# 45 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
   p.lcd_data_enabled <: 0 @ time;
 
   time += 1000;
@@ -804,33 +804,33 @@ void lcd_server(chanend c_lcd, struct lcd_ports &p) {
   while (1) {
     unsigned ptr;
     unsigned x;
-# 56 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+# 56 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
     for (unsigned i = 0; i <  (0) ; i++) {
-# 61 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+# 61 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
       time +=  ( (46) + (800) + (16) ) ;
     }
-# 73 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+# 73 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
       time +=  ( (46) + (800) + (16) ) *( (23)  -  (0) );
 
 
     for (int y = 0; y <  (480) ; y++)
     {
-# 81 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+# 81 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
       time +=  (46) ;
 
       ptr =  __builtin_in_uint(c_lcd) ;
       __builtin_chkct(c_lcd, 0x1 ) ;
 
 
-      lcd_fast_write(ptr, time, p.lcd_rgb, p.lcd_data_enabled);
-      time +=  (800) ;
-# 104 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+	  lcd_fast_write(ptr, time, p.lcd_rgb, p.lcd_data_enabled);
+	  time +=  (800) ;
+# 109 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
       __builtin_outct(c_lcd, 0x1 ) ;
       time +=  (16) ;
     }
 
     for(unsigned i=0;i< (7) ;i++) {
-# 112 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+# 117 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
       time +=  ( (46) + (800) + (16) ) ;
     }
   }

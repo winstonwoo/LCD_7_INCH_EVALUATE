@@ -4,8 +4,11 @@
 <window height="700" maximized="true" width="1024" x="28" y="59">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="org.eclipse.ui.navigator.ProjectExplorer"/>
+<orientation position="512" view="com.xmos.devcolumn.ui.views.devcolumn.DevColumn"/>
 <orientation position="512" view="com.xmos.systembuilder.ui.views.systembuilder.SystemBuilder"/>
+<orientation position="512" view="org.eclipse.debug.ui.DebugView"/>
 <orientation position="512" view="org.eclipse.ui.views.ProblemView"/>
+<orientation position="512" view="com.xmos.xsoftip.ui.views.xsoftip.XSoftIPView"/>
 </fastViewData>
 <intro standby="true"/>
 <perspectiveBar>
@@ -27,12 +30,12 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.cdt.make.editor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.cdt.make.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.xmos.cdt.ui.editors.makefile.AppLvlMakefileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.xmos.cdt.ui.editors.xn.ModifiableXNEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.cdt.ui.editor.asm.AsmEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.xmos.cdt.ui.XCEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -103,13 +106,18 @@
 <part id="57"/>
 <part id="58"/>
 <part id="59"/>
+<part id="60"/>
+<part id="61"/>
+<part id="62"/>
+<part id="63"/>
+<part id="64"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="com.xmos.cdt.ui.XCEditor" name="app_kentec_display_i8080.xc" partName="app_kentec_display_i8080.xc" path="J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/app_kentec_display_i8080/src/app_kentec_display_i8080.xc" title="app_kentec_display_i8080.xc" tooltip="app_kentec_display_i8080/src/app_kentec_display_i8080.xc" workbook="DefaultEditorWorkbook">
+<editor id="com.xmos.cdt.ui.XCEditor" name="app_kentec_display_i8080.xc" partName="app_kentec_display_i8080.xc" path="E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/app_kentec_display_i8080/src/app_kentec_display_i8080.xc" title="app_kentec_display_i8080.xc" tooltip="app_kentec_display_i8080/src/app_kentec_display_i8080.xc" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/app_kentec_display_i8080/src/app_kentec_display_i8080.xc"/>
-<editorState selectionHorizontalPixel="0" selectionLength="79" selectionOffset="2857" selectionTopPixel="785"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="205" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="i8080_slave.h" partName="i8080_slave.h" path="J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_i8080_slave/src/i8080_slave.h" title="i8080_slave.h" tooltip="module_kentec_i8080_slave/src/i8080_slave.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/module_kentec_i8080_slave/src/i8080_slave.h"/>
@@ -262,13 +270,13 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/module_sdram/src/sdram_server_common.inc"/>
 <editorState selectionHorizontalPixel="0" selectionLength="12" selectionOffset="1168" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lcd.h" partName="lcd.h" path="J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.h" title="lcd.h" tooltip="module_lcd/src/lcd.h" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lcd.h" partName="lcd.h" path="E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.h" title="lcd.h" tooltip="module_lcd/src/lcd.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/module_lcd/src/lcd.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="512" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="76" selectionTopPixel="0"/>
 </editor>
-<editor id="com.xmos.cdt.ui.XCEditor" name="app_kentec_text_display.xc" partName="app_kentec_text_display.xc" path="J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/app_text_display/src/app_kentec_text_display.xc" title="app_kentec_text_display.xc" tooltip="app_text_display/src/app_kentec_text_display.xc" workbook="DefaultEditorWorkbook">
+<editor id="com.xmos.cdt.ui.XCEditor" name="app_kentec_text_display.xc" partName="app_kentec_text_display.xc" path="E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/app_text_display/src/app_kentec_text_display.xc" title="app_kentec_text_display.xc" tooltip="app_text_display/src/app_kentec_text_display.xc" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/app_text_display/src/app_kentec_text_display.xc"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="215" selectionTopPixel="2"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="902" selectionTopPixel="255"/>
 </editor>
 <editor id="com.xmos.cdt.ui.XCEditor" name="control_unit.xc" partName="control_unit.xc" path="J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_control_unit/src/control_unit.xc" title="control_unit.xc" tooltip="module_control_unit/src/control_unit.xc" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/module_control_unit/src/control_unit.xc"/>
@@ -340,16 +348,83 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/module_random/module_random.metainfo"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="122" selectionTopPixel="105"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.ui.DefaultTextEditor" name="module_build_info" partName="module_build_info" path="J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_random/module_build_info" title="module_build_info" tooltip="module_random/module_build_info" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.ui.DefaultTextEditor" name="module_build_info" partName="module_build_info" path="E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_random/module_build_info" title="module_build_info" tooltip="module_random/module_build_info" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/module_random/module_build_info"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
+<editor id="com.xmos.cdt.ui.XCEditor" name="lcd.xc" partName="lcd.xc" path="E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc" title="lcd.xc" tooltip="module_lcd/src/lcd.xc" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/module_lcd/src/lcd.xc"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="217" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.make.editor" name="Makefile" partName="Makefile" path="E:/Pro2014/xmos/SW/sc_lcd-master/app_lcd_demo/doc_quickstart/Makefile" title="Makefile" tooltip="app_lcd_demo/doc_quickstart/Makefile" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/app_lcd_demo/doc_quickstart/Makefile"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="173" selectionTopPixel="0"/>
+</editor>
+<editor id="com.xmos.cdt.ui.XCEditor" name="app_lcd_demo.xc" partName="app_lcd_demo.xc" path="E:/Pro2014/xmos/SW/sc_lcd-master/app_lcd_demo/src/app_lcd_demo.xc" title="app_lcd_demo.xc" tooltip="app_lcd_demo/src/app_lcd_demo.xc" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/app_lcd_demo/src/app_lcd_demo.xc"/>
+<editorState selectionHorizontalPixel="0" selectionLength="1980" selectionOffset="39" selectionTopPixel="680"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="quickstart.rst" partName="quickstart.rst" path="E:/Pro2014/xmos/SW/sc_lcd-master/app_lcd_demo/doc_quickstart/quickstart.rst" title="quickstart.rst" tooltip="app_lcd_demo/doc_quickstart/quickstart.rst" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/app_lcd_demo/doc_quickstart/quickstart.rst"/>
+<editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="3533" selectionTopPixel="550"/>
+</editor>
+<editor activePart="true" focus="true" id="com.xmos.cdt.ui.XCEditor" name="app_display_controller_demo.xc" partName="app_display_controller_demo.xc" path="E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/app_display_controller_demo/src/app_display_controller_demo.xc" title="app_display_controller_demo.xc" tooltip="app_display_controller_demo/src/app_display_controller_demo.xc" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/app_display_controller_demo/src/app_display_controller_demo.xc"/>
+<editorState selectionHorizontalPixel="0" selectionLength="82" selectionOffset="1411" selectionTopPixel="646"/>
+</editor>
 </editors>
 <views>
-<view id="org.eclipse.ui.views.ProgressView" partName="Progress">
+<view id="com.xmos.cdt.ui.views.binary.Binary" partName="Binary">
 <viewState/>
 </view>
-<view id="com.xmos.cdt.ui.views.binary.Binary" partName="Binary">
+<view id="com.xmos.xta.ui.views.console.Console" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.cdt.debug.ui.executablesView" partName="Executables">
+<viewState/>
+</view>
+<view id="com.xmos.xsoftip.ui.views.xsoftip.XSoftIPView" partName="xSOFTip">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="com.xmos.systembuilder.ui.views.systembuilder.SystemBuilder" partName="My System">
+<viewState/>
+</view>
+<view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="com.xmos.xta.ui.views.visualizations.Visualizations" partName="Visualizations"/>
+<view id="org.eclipse.ui.internal.introview" partName="XMOS Welcome">
+<viewState/>
+</view>
+<view id="com.xmos.xta.ui.views.routes.Routes" partName="Routes">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ProgressView" partName="Progress">
 <viewState/>
 </view>
 <view id="com.xmos.xsoftip.ui.views.community.CommunityView" partName="Community">
@@ -361,16 +436,7 @@
 <view IMemento.internal.id="org.eclipse.search.text.FileSearchResultPage" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" org.eclipse.search.resultpage.limit="1000" org.eclipse.search.resultpage.sorting="2"/>
 </viewState>
 </view>
-<view id="com.xmos.xta.ui.views.console.Console" partName="Console">
-<viewState/>
-</view>
 <view id="org.eclipse.debug.ui.DebugView" partName="Debug">
-<viewState/>
-</view>
-<view id="org.eclipse.cdt.debug.ui.executablesView" partName="Executables">
-<viewState/>
-</view>
-<view id="com.xmos.xsoftip.ui.views.xsoftip.XSoftIPView" partName="xSOFTip">
 <viewState/>
 </view>
 <view id="org.eclipse.ui.views.TaskList" partName="Tasks">
@@ -388,55 +454,24 @@
 <view id="com.xmos.xta.ui.views.disassembly.Disassembly" partName="Disassembly">
 <viewState/>
 </view>
-<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
-<viewState/>
-</view>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" CommonNavigator.LINKING_ENABLED.delayed="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
 <view id="com.xmos.devcolumn.ui.views.devcolumn.DevColumn" partName="Developer Column">
 <viewState/>
 </view>
-<view id="com.xmos.systembuilder.ui.views.systembuilder.SystemBuilder" partName="My System">
-<viewState/>
-</view>
 <view id="com.xmos.xvcd.views.waves.Waves" partName="Waves">
 <viewState/>
-</view>
-<view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target">
-<viewState/>
-</view>
-<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
-<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>&#x0A;<category IMemento.internal.id="Warnings (15 items)"/>
-</expanded>
-<columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
-</viewState>
 </view>
 <view id="com.xmos.xsoftip.ui.views.howto.HowToView" partName="HowTo">
 <viewState/>
 </view>
-<view id="com.xmos.xta.ui.views.visualizations.Visualizations" partName="Visualizations"/>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
-<viewState/>
-</view>
-<view id="org.eclipse.ui.internal.introview" partName="XMOS Welcome">
-<viewState/>
-</view>
-<view id="com.xmos.xta.ui.views.routes.Routes" partName="Routes">
-<viewState/>
-</view>
 <view id="com.xmos.xta.ui.views.info.Info" partName="Info"/>
 <view id="org.eclipse.help.ui.HelpView" partName="Help">
-<viewState BrowserPart.url="/org.eclipse.platform.doc.user/tasks/tasks-44.htm" pageId="browser-page"/>
+<viewState pageId="browser-page"/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.DefaultTextEditor" activePerspective="com.xmos.cdt.ui.XdeEditPerspective">
+<perspectives activePart="com.xmos.cdt.ui.XCEditor" activePerspective="com.xmos.cdt.ui.XdeEditPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.xmos.cdt.ui.XdeEditPerspective" id="com.xmos.cdt.ui.XdeEditPerspective" label="XMOS Edit"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -481,12 +516,12 @@
 <hide_menu_item_id id="org.eclipse.cdt.ui.prjmenu"/>
 <hide_toolbar_item_id id="org.eclipse.ui.file.print"/>
 <hide_toolbar_item_id id="org.eclipse.search.searchActionSet"/>
-<hide_toolbar_item_id id="newWizardDropDown"/>
-<hide_toolbar_item_id id="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="com.xmos.xsoftip.ui.views.xsoftip.XSoftIPView"/>
+<hide_toolbar_item_id id="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar"/>
+<hide_toolbar_item_id id="newWizardDropDown"/>
 <view id="com.xmos.xsoftip.ui.views.howto.HowToView"/>
 <view id="com.xmos.xsoftip.ui.views.community.CommunityView"/>
+<view id="com.xmos.xsoftip.ui.views.xsoftip.XSoftIPView"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.ui.views.TaskList"/>
@@ -496,11 +531,11 @@
 <view id="org.eclipse.search.ui.views.SearchView"/>
 <view id="org.eclipse.cdt.make.ui.views.MakeView"/>
 <view id="org.eclipse.debug.ui.DebugView"/>
-<view id="com.xmos.devcolumn.ui.views.devcolumn.DevColumn"/>
 <view id="org.eclipse.ui.internal.introview"/>
 <view id="org.eclipse.help.ui.HelpView"/>
+<view id="com.xmos.devcolumn.ui.views.devcolumn.DevColumn"/>
 <fastViews>
-<view id="org.eclipse.ui.views.ProblemView" ratio="0.29896906"/>
+<view id="org.eclipse.ui.views.ProblemView" ratio="0.29864016"/>
 </fastViews>
 <fastViewBars/>
 <layout>
@@ -511,23 +546,24 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@178743b" ratio="0.7793358" ratioLeft="1056" ratioRight="299" relationship="2" relative="topLeft">
-<folder activePageID="org.eclipse.help.ui.HelpView" appearance="2" expanded="2">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@178743b" ratio="0.66055524" ratioLeft="1261" ratioRight="648" relationship="2" relative="topLeft">
+<folder activePageID="com.xmos.devcolumn.ui.views.devcolumn.DevColumn" appearance="2" expanded="2">
 <page content="org.eclipse.help.ui.HelpView" label="Help"/>
+<page content="com.xmos.devcolumn.ui.views.devcolumn.DevColumn" label="Developer Column"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1e5e4a4" ratio="0.42165244" ratioLeft="444" ratioRight="609" relationship="2" relative="topLeft">
-<folder activePageID="org.eclipse.ui.internal.introview" appearance="2" expanded="2">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1e5e4a4" ratio="0.2718601" ratioLeft="342" ratioRight="916" relationship="2" relative="topLeft">
+<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProgressView" label="Progress"/>
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
 <page content="org.eclipse.cdt.make.ui.views.MakeView" label="Make Target"/>
 <page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
-<page content="com.xmos.devcolumn.ui.views.devcolumn.DevColumn" label="Developer Column"/>
 <page content="org.eclipse.ui.internal.introview" label="XMOS Welcome"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
@@ -536,11 +572,10 @@
 <part id="3"/>
 <part id="4"/>
 <part id="5"/>
-<part id="6"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottom" ratio="0.6171244" ratioLeft="382" ratioRight="237" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1e5e4a4">
+<info folder="true" part="bottom" ratio="0.76262087" ratioLeft="710" ratioRight="221" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1e5e4a4">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
@@ -557,13 +592,13 @@
 </folder>
 </info>
 <info part="org.eclipse.egit.ui.RepositoriesView" ratio="0.5" ratioLeft="390" ratioRight="390" relationship="2" relative="bottom"/>
-<info part="org.eclipse.ui.editorss" ratio="0.11594203" ratioLeft="64" ratioRight="488" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1e5e4a4"/>
+<info part="org.eclipse.ui.editorss" ratio="0.11914324" ratioLeft="89" ratioRight="658" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1e5e4a4"/>
 <info folder="true" part="bottomLeft" ratio="0.49917626" ratioLeft="303" ratioRight="304" relationship="4" relative="topLeft">
 <folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
-<page content="com.xmos.xsoftip.ui.views.xsoftip.XSoftIPView" label="xSOFTip"/>
 <page content="com.xmos.xsoftip.ui.views.howto.HowToView" label="HowTo"/>
 <page content="com.xmos.xsoftip.ui.views.community.CommunityView" label="Community"/>
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="com.xmos.xsoftip.ui.views.xsoftip.XSoftIPView" label="xSOFTip"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
@@ -620,31 +655,41 @@
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="com.xmos.devcolumn.ui.views.devcolumn.DevColumn"/>
 <view id="org.eclipse.ui.views.ProgressView"/>
-<view id="org.eclipse.ui.internal.introview"/>
 <view id="org.eclipse.help.ui.HelpView"/>
+<view id="org.eclipse.ui.internal.introview"/>
 <view id="org.eclipse.debug.ui.DebugView"/>
-<fastViewBars>&#x0A;<fastViewBar fastViewLocation="131072" id="org.eclipse.debug.internal.ui.ToolsFolderView" orientation="256" selectedTabId="org.eclipse.debug.ui.VariableView" style="0">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.debug.ui.VariableView" ratio="0.3"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="131072" id="org.eclipse.debug.internal.ui.ToolsFolderView" orientation="256" selectedTabId="org.eclipse.debug.ui.VariableView" style="0">
+<fastViews>
+<view id="org.eclipse.debug.ui.VariableView" ratio="0.3"/>
 <view id="org.eclipse.debug.ui.BreakpointView" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
-<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@222b00" ratio="0.75" ratioLeft="1254" ratioRight="418" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.views.ProgressView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ProgressView" label="Progress"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@222b00" ratio="0.75" ratioLeft="1254" ratioRight="418" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.ui.internal.introview" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProgressView" label="Progress"/>
 <page content="org.eclipse.help.ui.HelpView" label="Help"/>
 <page content="org.eclipse.ui.internal.introview" label="XMOS Welcome"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.7124394" ratioLeft="441" ratioRight="178" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.7124394" ratioLeft="441" ratioRight="178" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="com.xmos.xvcd.views.waves.Waves" label="Waves"/>
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
@@ -652,7 +697,8 @@
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.MemoryView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
@@ -661,18 +707,31 @@
 </folder>
 </info>
 <info part="org.eclipse.egit.ui.RepositoriesView" ratio="0.5" ratioLeft="836" ratioRight="836" relationship="2" relative="org.eclipse.debug.internal.ui.ConsoleFolderView"/>
-<info part="org.eclipse.ui.editorss" ratio="0.07631579" ratioLeft="29" ratioRight="351" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.78941566" ratioLeft="716" ratioRight="191" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1353b2b" ratio="0.36" ratioLeft="270" ratioRight="480" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.78941566" ratioLeft="716" ratioRight="191" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1353b2b">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="com.xmos.devcolumn.ui.views.devcolumn.DevColumn" label="Developer Column"/>
 <page content="com.xmos.xvcd.views.signals.Signals" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.dsf.gdb.ui.tracecontrol.view" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="836" ratioRight="836" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="LabelNotFound"/>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="319" ratioRight="957" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1353b2b"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="836" ratioRight="836" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.debug.ui.VariableView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
@@ -705,30 +764,44 @@
 <view id="com.xmos.xsoftip.ui.views.xsoftip.XSoftIPView"/>
 <view id="org.eclipse.ui.internal.introview"/>
 <view id="org.eclipse.help.ui.HelpView"/>
-<fastViews>&#x0A;<view id="com.xmos.systembuilder.ui.views.systembuilder.SystemBuilder" ratio="0.29970545"/>
+<fastViews>
+<view id="com.xmos.systembuilder.ui.views.systembuilder.SystemBuilder" ratio="0.2996862"/>
 </fastViews>
 <fastViewBars/>
-<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="left">&#x0A;<folder activePageID="com.xmos.xsoftip.ui.views.xsoftip.XSoftIPView" appearance="2" expanded="2">&#x0A;<page content="com.xmos.xsoftip.ui.views.xsoftip.XSoftIPView" label="xSOFTip"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="com.xmos.xsoftip.ui.views.xsoftip.XSoftIPView" appearance="2" expanded="2">
+<page content="com.xmos.xsoftip.ui.views.xsoftip.XSoftIPView" label="xSOFTip"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@cd90ce" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="left">&#x0A;<folder activePageID="org.eclipse.ui.internal.introview" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.internal.introview" label="XMOS Welcome"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@cd90ce" ratio="0.8308015" ratioLeft="1586" ratioRight="323" relationship="2" relative="left">
+<folder activePageID="org.eclipse.help.ui.HelpView" appearance="2" expanded="2">
 <page content="org.eclipse.help.ui.HelpView" label="Help"/>
+<page content="org.eclipse.ui.internal.introview" label="XMOS Welcome"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.42645606" ratioLeft="432" ratioRight="581" relationship="2" relative="left"/>
-<info folder="true" part="right" ratio="0.24926399" ratioLeft="254" ratioRight="765" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="com.xmos.devcolumn.ui.views.devcolumn.DevColumn" appearance="2" expanded="2">&#x0A;<page content="com.xmos.devcolumn.ui.views.devcolumn.DevColumn" label="Developer Column"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<info part="org.eclipse.ui.editorss" ratio="0.2432091" ratioLeft="385" ratioRight="1198" relationship="2" relative="left"/>
+<info folder="true" part="right" ratio="0.24926399" ratioLeft="254" ratioRight="765" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.xmos.devcolumn.ui.views.devcolumn.DevColumn" appearance="2" expanded="2">
+<page content="com.xmos.devcolumn.ui.views.devcolumn.DevColumn" label="Developer Column"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
 <info part="org.eclipse.egit.ui.RepositoriesView" ratio="0.4986945" ratioLeft="191" ratioRight="192" relationship="2" relative="right"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@ea06a1" ratio="0.4390244" ratioLeft="306" ratioRight="391" relationship="2" relative="left">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="com.xmos.systembuilder.ui.views.systembuilder.SystemBuilder" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@ea06a1" ratio="0.4390244" ratioLeft="306" ratioRight="391" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="com.xmos.systembuilder.ui.views.systembuilder.SystemBuilder" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
@@ -811,14 +884,7 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" path="/app_text_display/src/app_kentec_text_display.xc"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" path="/module_kentec_text_display/src/graphics.xc"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" path="/module_kentec_text_display/src/text_display.xc"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" path="/i8080_slave_demo/src/i8080_slave_demo.xc"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.make.editor" path="/module_kentec_text_display/Makefile"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/module_kentec_text_display/src/graphics.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/module_kentec_text_display/README"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/module_kentec_text_display/src/Fonts/verdana16_h.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" path="/module_kentec_text_display/src/text_display.xc"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" path="/module_kentec_text_display/src/graphics.xc"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/module_kentec_text_display/src/MX25L6445E.spec"/>
@@ -831,116 +897,151 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/module_random/README.txt"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/module_random/module_random.metainfo"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/module_random/module_build_info"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" path="/app_kentec_display_i8080/src/app_kentec_display_i8080.xc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/module_lcd/src/lcd.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" path="/module_lcd/src/lcd.xc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.make.editor" path="/app_lcd_demo/doc_quickstart/Makefile"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/app_lcd_demo/doc_quickstart/quickstart.rst"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" path="/app_lcd_demo/src/app_lcd_demo.xc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" path="/app_text_display/src/app_kentec_text_display.xc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/app_lcd_demo/src/sprite.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" path="/app_display_controller_demo/src/app_display_controller_demo.xc"/>
 </editors>
-<item historyLabel="graphics.xc" index="1"/>
-<item historyLabel="app_kentec_text_display.xc" index="0">
-<position info="not_deleted" x="307" y="20"/>
-</item>
-<item historyLabel="text_display.xc" index="2"/>
-<item historyLabel="app_kentec_text_display.xc" index="0">
-<position info="not_deleted" x="243" y="0"/>
-</item>
-<item historyLabel="graphics.xc" index="1"/>
-<item historyLabel="i8080_slave_demo.xc" index="3">
-<position info="not_deleted" x="275" y="0"/>
-</item>
-<item historyLabel="Makefile" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="i8080_slave_demo.xc" index="3">
-<position info="not_deleted" x="275" y="0"/>
-</item>
-<item historyLabel="graphics.h" index="5"/>
-<item historyLabel="README" index="6">
-<position/>
-</item>
-<item historyLabel="verdana16_h.h" index="7"/>
-<item historyLabel="README" index="6">
-<position/>
-</item>
-<item historyLabel="graphics.h" index="5"/>
-<item historyLabel="i8080_slave_demo.xc" index="3">
-<position info="not_deleted" x="219" y="0"/>
-</item>
-<item historyLabel="graphics.h" index="5"/>
-<item historyLabel="i8080_slave_demo.xc" index="3">
-<position info="not_deleted" x="308" y="0"/>
-</item>
-<item historyLabel="graphics.h" index="5"/>
-<item historyLabel="i8080_slave_demo.xc" index="3">
-<position info="not_deleted" x="308" y="0"/>
-</item>
-<item historyLabel="README" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="text_display.xc" index="8"/>
-<item historyLabel="README" index="6">
-<position info="not_deleted" x="25" y="0"/>
-</item>
-<item historyLabel="i8080_slave_demo.xc" index="3">
-<position info="not_deleted" x="308" y="0"/>
-</item>
-<item historyLabel="graphics.h" index="5"/>
-<item historyLabel="i8080_slave_demo.xc" index="3">
-<position info="not_deleted" x="308" y="0"/>
-</item>
-<item historyLabel="graphics.xc" index="9"/>
-<item historyLabel="i8080_slave_demo.xc" index="3">
-<position info="not_deleted" x="308" y="0"/>
-</item>
-<item historyLabel="MX25L6445E.spec" index="10">
+<item historyLabel="graphics.xc" index="2"/>
+<item historyLabel="text_display.xc" index="1"/>
+<item historyLabel="graphics.xc" index="2"/>
+<item historyLabel="text_display.h" index="4"/>
+<item historyLabel="graphics.xc" index="2"/>
+<item historyLabel="MX25L6445E.spec" index="3">
 <position info="not_deleted" x="262" y="0"/>
 </item>
-<item historyLabel="graphics.xc" index="9"/>
-<item historyLabel="graphics.h" index="5"/>
-<item historyLabel="graphics.xc" index="9"/>
-<item historyLabel="text_display.xc" index="8"/>
-<item historyLabel="graphics.xc" index="9"/>
-<item historyLabel="text_display.h" index="11"/>
-<item historyLabel="graphics.xc" index="9"/>
-<item historyLabel="MX25L6445E.spec" index="10">
+<item historyLabel="graphics.xc" index="2"/>
+<item historyLabel="MX25L6445E.spec" index="3">
 <position info="not_deleted" x="262" y="0"/>
 </item>
-<item historyLabel="graphics.xc" index="9"/>
-<item historyLabel="MX25L6445E.spec" index="10">
-<position info="not_deleted" x="262" y="0"/>
-</item>
-<item historyLabel="graphics.h" index="5"/>
-<item historyLabel="MX25L6445E.spec" index="10">
+<item historyLabel="graphics.h" index="0"/>
+<item historyLabel="MX25L6445E.spec" index="3">
 <position info="not_deleted" x="354" y="0"/>
 </item>
-<item historyLabel="app_kentec_text_display.xc" index="12">
+<item historyLabel="app_kentec_text_display.xc" index="5">
 <position info="not_deleted" x="243" y="0"/>
 </item>
-<item historyLabel="app_kentec_text_display.xc" index="12">
+<item historyLabel="app_kentec_text_display.xc" index="5">
 <position info="not_deleted" x="521" y="0"/>
 </item>
-<item historyLabel="app_kentec_text_display.xc" index="12">
+<item historyLabel="app_kentec_text_display.xc" index="5">
 <position info="not_deleted" x="303" y="0"/>
 </item>
-<item historyLabel="README" index="13">
+<item historyLabel="README" index="6">
 <position info="not_deleted" x="51" y="0"/>
 </item>
-<item historyLabel="module_build_info" index="14">
+<item historyLabel="module_build_info" index="7">
 <position info="not_deleted" x="415" y="0"/>
 </item>
-<item historyLabel="module_description" index="15">
+<item historyLabel="module_description" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="module_build_info" index="14">
+<item historyLabel="module_build_info" index="7">
 <position info="not_deleted" x="415" y="0"/>
 </item>
-<item historyLabel="module_build_info" index="16">
+<item historyLabel="module_build_info" index="9">
 <position info="not_deleted" x="416" y="0"/>
 </item>
-<item historyLabel="README.txt" index="17">
+<item historyLabel="README.txt" index="10">
 <position info="not_deleted" x="219" y="0"/>
 </item>
-<item historyLabel="module_random.metainfo" index="18">
+<item historyLabel="module_random.metainfo" index="11">
 <position info="not_deleted" x="122" y="0"/>
 </item>
-<item active="true" historyLabel="module_build_info" index="19">
+<item historyLabel="module_build_info" index="12">
 <position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="app_kentec_display_i8080.xc" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="app_kentec_display_i8080.xc" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="lcd.h" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="lcd.h" index="14">
+<position info="not_deleted" x="76" y="0"/>
+</item>
+<item historyLabel="lcd.xc" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="lcd.xc" index="15">
+<position info="not_deleted" x="217" y="0"/>
+</item>
+<item historyLabel="Makefile" index="16">
+<position info="not_deleted" x="173" y="0"/>
+</item>
+<item historyLabel="quickstart.rst" index="17">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="lcd.h" index="14">
+<position info="not_deleted" x="76" y="0"/>
+</item>
+<item historyLabel="lcd.xc" index="15">
+<position info="not_deleted" x="217" y="0"/>
+</item>
+<item historyLabel="lcd.h" index="14">
+<position info="not_deleted" x="76" y="0"/>
+</item>
+<item historyLabel="lcd.xc" index="15">
+<position info="not_deleted" x="217" y="0"/>
+</item>
+<item historyLabel="app_lcd_demo.xc" index="18">
+<position info="not_deleted" x="1491" y="0"/>
+</item>
+<item historyLabel="app_kentec_text_display.xc" index="19">
+<position info="not_deleted" x="224" y="0"/>
+</item>
+<item historyLabel="app_kentec_text_display.xc" index="19">
+<position info="not_deleted" x="206" y="0"/>
+</item>
+<item historyLabel="app_lcd_demo.xc" index="18">
+<position info="not_deleted" x="58" y="0"/>
+</item>
+<item historyLabel="app_kentec_text_display.xc" index="19">
+<position info="not_deleted" x="98" y="0"/>
+</item>
+<item historyLabel="app_lcd_demo.xc" index="18">
+<position info="not_deleted" x="52" y="0"/>
+</item>
+<item historyLabel="sprite.h" index="20">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="app_lcd_demo.xc" index="18">
+<position info="not_deleted" x="39" y="1980"/>
+</item>
+<item historyLabel="app_kentec_text_display.xc" index="19">
+<position info="not_deleted" x="1676" y="0"/>
+</item>
+<item historyLabel="quickstart.rst" index="17">
+<position info="not_deleted" x="3263" y="0"/>
+</item>
+<item historyLabel="app_kentec_text_display.xc" index="19">
+<position info="not_deleted" x="1188" y="3"/>
+</item>
+<item historyLabel="quickstart.rst" index="17">
+<position info="not_deleted" x="3533" y="10"/>
+</item>
+<item historyLabel="app_kentec_text_display.xc" index="19">
+<position info="not_deleted" x="1393" y="0"/>
+</item>
+<item historyLabel="quickstart.rst" index="17">
+<position info="not_deleted" x="3533" y="10"/>
+</item>
+<item historyLabel="app_kentec_text_display.xc" index="19">
+<position info="not_deleted" x="902" y="0"/>
+</item>
+<item historyLabel="app_display_controller_demo.xc" index="21">
+<position info="not_deleted" x="1731" y="57"/>
+</item>
+<item active="true" historyLabel="app_display_controller_demo.xc" index="21">
+<position info="not_deleted" x="1428" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -948,6 +1049,14 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="bottomLeft"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@1e5e4a4"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@178743b"/>
+<trimItem IMemento.internal.id="org.eclipse.debug.internal.ui.ToolsFolderView"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -955,10 +1064,32 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" name="app_display_controller_demo.xc" tooltip="app_display_controller_demo/src/app_display_controller_demo.xc">
+<persistable path="/app_display_controller_demo/src/app_display_controller_demo.xc"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="sprite.h" tooltip="app_lcd_demo/src/sprite.h">
+<persistable path="/app_lcd_demo/src/sprite.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" name="app_lcd_demo.xc" tooltip="app_lcd_demo/src/app_lcd_demo.xc">
+<persistable path="/app_lcd_demo/src/app_lcd_demo.xc"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="quickstart.rst" tooltip="app_lcd_demo/doc_quickstart/quickstart.rst">
+<persistable path="/app_lcd_demo/doc_quickstart/quickstart.rst"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.make.editor" name="Makefile" tooltip="app_lcd_demo/doc_quickstart/Makefile">
+<persistable path="/app_lcd_demo/doc_quickstart/Makefile"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="hardware_setup.jpg" tooltip="app_lcd_demo/doc_quickstart/images/hardware_setup.jpg">
+<persistable path="/app_lcd_demo/doc_quickstart/images/hardware_setup.jpg"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" name="lcd.xc" tooltip="module_lcd/src/lcd.xc">
+<persistable path="/module_lcd/src/lcd.xc"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="module_build_info" tooltip="module_random/module_build_info">
 <persistable path="/module_random/module_build_info"/>
 </file>
@@ -979,30 +1110,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="README" tooltip="module_kentec_text_display/README">
 <persistable path="/module_kentec_text_display/README"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="graphics.h" tooltip="module_kentec_text_display/src/graphics.h">
-<persistable path="/module_kentec_text_display/src/graphics.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" name="graphics.xc" tooltip="module_kentec_text_display/src/graphics.xc">
-<persistable path="/module_kentec_text_display/src/graphics.xc"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="text_display.h" tooltip="module_kentec_text_display/src/text_display.h">
-<persistable path="/module_kentec_text_display/src/text_display.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" name="text_display.xc" tooltip="module_kentec_text_display/src/text_display.xc">
-<persistable path="/module_kentec_text_display/src/text_display.xc"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="MX25L6445E.spec" tooltip="module_kentec_text_display/src/MX25L6445E.spec">
-<persistable path="/module_kentec_text_display/src/MX25L6445E.spec"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="app_kentec_text_display.xi" tooltip="app_text_display/.build_Debug/app_kentec_text_display.xi">
-<persistable path="/app_text_display/.build_Debug/app_kentec_text_display.xi"/>
-</file>
-<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="SpecMacros.h" tooltip="C:\Program Files\XMOS\xTIMEcomposer\Community_13.1.0\target\include\SpecMacros.h">
-<persistable path="C:\Program Files\XMOS\xTIMEcomposer\Community_13.1.0\target\include\SpecMacros.h" project="flash_write"/>
-</file>
-<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="SpecEnum.h" tooltip="C:\Program Files\XMOS\xTIMEcomposer\Community_13.1.0\target\include\SpecEnum.h">
-<persistable path="C:\Program Files\XMOS\xTIMEcomposer\Community_13.1.0\target\include\SpecEnum.h" project="flash_write"/>
 </file>
 </mruList>
 </workbench>

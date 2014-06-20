@@ -1,0 +1,7 @@
+#Thu Jun 19 14:58:59 CST 2014
+eclipse.preferences.version=1
+environment/project/com.xmos.cdt.toolchain.76924317/XMOS_MODULE_PATH/delimiter=;
+environment/project/com.xmos.cdt.toolchain.76924317/XMOS_MODULE_PATH/operation=append
+environment/project/com.xmos.cdt.toolchain.76924317/XMOS_MODULE_PATH/value=E\:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\app_kentec_display_i8080;E\:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\app_text_display;E\:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\app_text_display_slave;E\:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\flash_write;E\:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\i8080_slave_demo;E\:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\module_control_unit;E\:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\module_display_controller;E\:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\module_kentec_i8080_slave;E\:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\module_kentec_text_display;E\:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\module_lcd;E\:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\module_random;E\:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\module_sdram
+environment/project/com.xmos.cdt.toolchain.76924317/append=true
+environment/project/com.xmos.cdt.toolchain.76924317/appendContributed=true

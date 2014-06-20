@@ -1,8 +1,8 @@
-# 1 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+# 1 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 # 1 "platform.h" 1 3
 # 21 "platform.h" 3
-# 1 "J://ProjectEstimated2014//XMOS//HMI//REF_8080_RGB//HMI//slave//app_text_display//.build_Debug//XS1-L01A-TQ128-C5.h" 1
-# 4 "J://ProjectEstimated2014//XMOS//HMI//REF_8080_RGB//HMI//slave//app_text_display//.build_Debug//XS1-L01A-TQ128-C5.h"
+# 1 "E://Pro2014//xmos//SW//LCD_7_INCH_EVALUATE//slave//app_text_display//.build_Debug//XS1-L01A-TQ128-C5.h" 1
+# 4 "E://Pro2014//xmos//SW//LCD_7_INCH_EVALUATE//slave//app_text_display//.build_Debug//XS1-L01A-TQ128-C5.h"
 # 1 "xs1.h" 1 3
 # 19 "xs1.h" 3
 # 1 "timer.h" 1 3
@@ -303,11 +303,11 @@ unsigned get_tile_id(tileref t);
 unsigned get_logical_core_id(void);
 # 1934 "xs1.h" 3
 extern int __builtin_getid(void);
-# 5 "J://ProjectEstimated2014//XMOS//HMI//REF_8080_RGB//HMI//slave//app_text_display//.build_Debug//XS1-L01A-TQ128-C5.h" 2
-# 13 "J://ProjectEstimated2014//XMOS//HMI//REF_8080_RGB//HMI//slave//app_text_display//.build_Debug//XS1-L01A-TQ128-C5.h"
+# 5 "E://Pro2014//xmos//SW//LCD_7_INCH_EVALUATE//slave//app_text_display//.build_Debug//XS1-L01A-TQ128-C5.h" 2
+# 13 "E://Pro2014//xmos//SW//LCD_7_INCH_EVALUATE//slave//app_text_display//.build_Debug//XS1-L01A-TQ128-C5.h"
 extern tileref tile[1];
 # 22 "platform.h" 2 3
-# 2 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc" 2
+# 2 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc" 2
 # 1 "print.h" 1 3
 # 34 "print.h" 3
 int printchar(char value);
@@ -341,7 +341,7 @@ int printllonghexln(unsigned long long value);
 int printstr(const char (& alias s)[]);
 # 133 "print.h" 3
 int printstrln(const char (& alias s)[]);
-# 3 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc" 2
+# 3 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc" 2
 # 1 "stdlib.h" 1 3
 # 4 "stdlib.h" 3
 # 1 "stdlib.h" 1 3
@@ -710,7 +710,7 @@ long long _safe_strtoll(const char n[], char * unsafe (&?endptr)[1], int base);
 unsigned long long _safe_strtoull(const char n[], char * unsafe (&?endptr)[1], int base);
 int _safe_system(const char (&?string)[]);
 # 6 "stdlib.h" 2 3
-# 4 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc" 2
+# 4 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc" 2
 # 1 "string.h" 1 3
 # 4 "string.h" 3
 # 1 "string.h" 1 3
@@ -819,7 +819,7 @@ char * alias _safe_strstr(const char * alias s1, const char s2[]);
 
 size_t _safe_strnlen(const char s[], size_t n);
 # 6 "string.h" 2 3
-# 5 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc" 2
+# 5 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc" 2
 # 1 "flashlib.h" 1 3
 # 19 "flashlib.h" 3
 # 1 "flash.h" 1 3
@@ -1079,8 +1079,8 @@ unsigned int fl_getBootPartitionSize();
 unsigned fl_getDataPartitionBase();
 # 110 "flashlib.h" 3
 int fl_eraseNextBootImage( fl_BootImageInfo& bootImageInfo );
-# 6 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc" 2
-# 7 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+# 6 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc" 2
+# 7 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 # 1 "graphics.h" 1
 # 11 "graphics.h"
 void set_background_color(unsigned short color);
@@ -1090,7 +1090,7 @@ void set_foreground_color(unsigned short color);
 unsigned short get_foreground_color(void);
 # 33 "graphics.h"
 unsigned short get_background_color(void);
-# 8 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc" 2
+# 8 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc" 2
 # 1 "lcd.h" 1
 # 3 "lcd.h"
 # 1 "xs1.h" 1 3
@@ -1128,7 +1128,7 @@ typedef struct lcd_ports {
   __clock_t  clk_lcd;
 } lcd_ports;
 # 26 "lcd.h"
-void lcd_server(chanend client, lcd_ports &ports);
+void lcd_server(chanend c_client, lcd_ports &ports);
 # 32 "lcd.h"
 void lcd_init(chanend c_lcd);
 # 41 "lcd.h"
@@ -1148,7 +1148,7 @@ static inline void lcd_update_p(chanend c_lcd, unsigned buffer) {
 static inline void lcd_req(chanend c_lcd) {
   __builtin_chkct(c_lcd, 0x1 ) ;
 }
-# 9 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc" 2
+# 9 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc" 2
 # 1 "text_display.h" 1
 # 4 "text_display.h"
 # 1 "lcd_defines.h" 1
@@ -1161,7 +1161,7 @@ static inline void lcd_req(chanend c_lcd) {
 
 void text_display_from_flash(chanend c_lcd, short curRow, short curCol, unsigned flStart, unsigned flEnd);
 void text_display_set_string(chanend c_lcd, char text[], short cursorRow, short cursorCol);
-# 10 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc" 2
+# 10 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc" 2
 # 1 "verdana16_h.h" 1
 # 22 "verdana16_h.h"
 const unsigned char verdana_16h_data_table[] = {
@@ -2329,7 +2329,7 @@ const unsigned char verdana_16h_width_table[] = {
   		 11,
 
 };
-# 11 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc" 2
+# 11 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc" 2
 
 extern unsigned lcd_buffer[2][ ( (800) * (16) /32) ];
 
@@ -2343,7 +2343,7 @@ fl_SPIPorts flash_ports = {  0x10200 ,
 	0x206  };
 
 fl_DeviceSpec spec[1] = { {
-# 24 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+# 24 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 # 1 "MX25L6445E.spec" 1
 99,
 256,
@@ -2368,7 +2368,7 @@ SECTOR_LAYOUT_REGULAR,
 0x05,
 0x01,
 0x01,
-# 25 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc" 2
+# 25 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc" 2
 } };
 
 

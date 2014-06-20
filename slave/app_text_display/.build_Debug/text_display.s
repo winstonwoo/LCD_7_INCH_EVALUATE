@@ -1,4 +1,4 @@
-	.file	"J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.file	"E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 
 	.inline_definition delay_seconds
 	.inline_definition delay_milliseconds
@@ -20,12 +20,12 @@
 	.set usage.anon.6,0
 	.set usage.anon.7,0
 	.set usage.anon.8,0
-	.globread text_display_set_string,verdana_16h_width_table,"J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc:76: error: previously used here"
-	.globread text_display_set_string,verdana_16h_index_table,"J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc:73: error: previously used here"
-	.globread text_display_set_string,verdana_16h_offset_table,"J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc:74: error: previously used here"
-	.globread text_display_set_string,verdana_16h_data_table,"J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc:75: error: previously used here"
-	.globread text_display_from_flash,spec,"J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc:33: error: previously used here"
-	.globwrite text_display_from_flash,flash_ports,"J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc:33: error: previously used here"
+	.globread text_display_set_string,verdana_16h_width_table,"E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc:76: error: previously used here"
+	.globread text_display_set_string,verdana_16h_index_table,"E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc:73: error: previously used here"
+	.globread text_display_set_string,verdana_16h_offset_table,"E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc:74: error: previously used here"
+	.globread text_display_set_string,verdana_16h_data_table,"E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc:75: error: previously used here"
+	.globread text_display_from_flash,spec,"E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc:33: error: previously used here"
+	.globwrite text_display_from_flash,flash_ports,"E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc:33: error: previously used here"
 	.call text_display_set_string,usage.anon.8
 	.call text_display_set_string,usage.anon.6
 	.call text_display_set_string,get_foreground_color
@@ -92,15 +92,15 @@
 	.set text_display_set_string.locnonotificationselect, 1
 	.assert 1,memset.actnoglobalaccess, "safe/string.h:21: error: passing non-local alias to function `memset' which accesses a global variable"
 	.assert 1,memmove.actnoglobalaccess, "safe/string.h:15: error: passing non-local alias to function `memmove' which accesses a global variable"
-	.globpassesref fl_connectToDevice, spec,"J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc:33: error: call to `fl_connectToDevice' in `text_display_from_flash' makes alias of global 'spec'"
-	.globpassesref fl_connectToDevice, flash_ports,"J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc:33: error: call to `fl_connectToDevice' in `text_display_from_flash' makes alias of global 'flash_ports'"
+	.globpassesref fl_connectToDevice, spec,"E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc:33: error: call to `fl_connectToDevice' in `text_display_from_flash' makes alias of global 'spec'"
+	.globpassesref fl_connectToDevice, flash_ports,"E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc:33: error: call to `fl_connectToDevice' in `text_display_from_flash' makes alias of global 'flash_ports'"
 
 
-	.file	1 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
-	.file	2 "J:\\ProjectEstimated2014\\XMOS\\HMI\\REF_8080_RGB\\HMI\\slave\\app_text_display\\.build_Debug\\verdana16_h.h"
-	.file	3 "J:\\ProjectEstimated2014\\XMOS\\HMI\\REF_8080_RGB\\HMI\\slave\\app_text_display\\.build_Debug\\timer.h"
-	.file	4 "J:\\ProjectEstimated2014\\XMOS\\HMI\\REF_8080_RGB\\HMI\\slave\\app_text_display\\.build_Debug\\safe/string.h"
-	.file	5 "J:\\ProjectEstimated2014\\XMOS\\HMI\\REF_8080_RGB\\HMI\\slave\\app_text_display\\.build_Debug\\lcd.h"
+	.file	1 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
+	.file	2 "E:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\app_text_display\\.build_Debug\\verdana16_h.h"
+	.file	3 "E:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\app_text_display\\.build_Debug\\timer.h"
+	.file	4 "E:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\app_text_display\\.build_Debug\\safe/string.h"
+	.file	5 "E:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\app_text_display\\.build_Debug\\lcd.h"
 	.section	.debug_info,"",@progbits
 .Lsection_info:
 	.section	.debug_abbrev,"",@progbits
@@ -1054,7 +1054,7 @@ spec:
 .Lsection_end1:
 	.section	.debug_info,"",@progbits
 .Linfo_begin1:
-	.long	3332
+	.long	3310
 	.short	2
 	.long	.Labbrev_begin
 	.byte	4
@@ -1062,11 +1062,11 @@ spec:
 	.ascii	 "XMOS 32-bit XC Compiler Community_13.1.0 (build 12073, May-09-2014)"
 	.byte	0
 	.short	49152
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	0
 	.long	.Lsection_line
-	.ascii	 "J:\\ProjectEstimated2014\\XMOS\\HMI\\REF_8080_RGB\\HMI\\slave\\app_text_display\\.build_Debug"
+	.ascii	 "E:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\app_text_display\\.build_Debug"
 	.byte	0
 	.byte	1
 	.byte	2
@@ -1075,14 +1075,14 @@ spec:
 	.byte	8
 	.byte	1
 	.byte	3
-	.long	280
+	.long	258
 	.byte	4
 	.byte	4
 	.byte	5
 	.byte	5
-	.long	297
+	.long	275
 	.byte	6
-	.long	302
+	.long	280
 	.short	3083
 	.byte	0
 	.byte	7
@@ -1090,7 +1090,7 @@ spec:
 	.byte	0
 	.ascii	 "verdana_16h_data_table"
 	.byte	0
-	.long	305
+	.long	283
 	.byte	1
 	.byte	2
 	.byte	22
@@ -1103,11 +1103,11 @@ spec:
 	.byte	7
 	.byte	4
 	.byte	3
-	.long	378
+	.long	356
 	.byte	5
-	.long	394
+	.long	372
 	.byte	8
-	.long	302
+	.long	280
 	.byte	94
 	.byte	0
 	.byte	9
@@ -1115,7 +1115,7 @@ spec:
 	.byte	0
 	.ascii	 "verdana_16h_offset_table"
 	.byte	0
-	.long	399
+	.long	377
 	.byte	1
 	.byte	2
 	.short	864
@@ -1123,9 +1123,9 @@ spec:
 	.byte	3
 	.long	verdana_16h_offset_table
 	.byte	5
-	.long	297
+	.long	275
 	.byte	8
-	.long	302
+	.long	280
 	.byte	126
 	.byte	0
 	.byte	9
@@ -1133,7 +1133,7 @@ spec:
 	.byte	0
 	.ascii	 "verdana_16h_index_table"
 	.byte	0
-	.long	476
+	.long	454
 	.byte	1
 	.byte	2
 	.short	975
@@ -1141,9 +1141,9 @@ spec:
 	.byte	3
 	.long	verdana_16h_index_table
 	.byte	5
-	.long	297
+	.long	275
 	.byte	8
-	.long	302
+	.long	280
 	.byte	94
 	.byte	0
 	.byte	9
@@ -1151,7 +1151,7 @@ spec:
 	.byte	0
 	.ascii	 "verdana_16h_width_table"
 	.byte	0
-	.long	551
+	.long	529
 	.byte	1
 	.byte	2
 	.short	1117
@@ -1175,7 +1175,7 @@ spec:
 	.byte	11
 	.ascii	 "spiMISO"
 	.byte	0
-	.long	626
+	.long	604
 	.byte	1
 	.byte	17
 	.byte	2
@@ -1185,7 +1185,7 @@ spec:
 	.byte	11
 	.ascii	 "spiSS"
 	.byte	0
-	.long	626
+	.long	604
 	.byte	1
 	.byte	17
 	.byte	2
@@ -1195,7 +1195,7 @@ spec:
 	.byte	11
 	.ascii	 "spiCLK"
 	.byte	0
-	.long	626
+	.long	604
 	.byte	1
 	.byte	17
 	.byte	2
@@ -1205,7 +1205,7 @@ spec:
 	.byte	11
 	.ascii	 "spiMOSI"
 	.byte	0
-	.long	626
+	.long	604
 	.byte	1
 	.byte	17
 	.byte	2
@@ -1215,7 +1215,7 @@ spec:
 	.byte	11
 	.ascii	 "spiClkblk"
 	.byte	0
-	.long	634
+	.long	612
 	.byte	1
 	.byte	17
 	.byte	2
@@ -1228,7 +1228,7 @@ spec:
 	.byte	0
 	.ascii	 "flash_ports"
 	.byte	0
-	.long	643
+	.long	621
 	.byte	1
 	.byte	1
 	.byte	17
@@ -1263,7 +1263,7 @@ spec:
 	.byte	11
 	.ascii	 "setProtectedValue"
 	.byte	0
-	.long	280
+	.long	258
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1273,7 +1273,7 @@ spec:
 	.byte	11
 	.ascii	 "setUnprotectedValue"
 	.byte	0
-	.long	280
+	.long	258
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1288,7 +1288,7 @@ spec:
 	.byte	11
 	.ascii	 "sectorProtectCommand"
 	.byte	0
-	.long	280
+	.long	258
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1298,7 +1298,7 @@ spec:
 	.byte	11
 	.ascii	 "sectorUnprotectCommand"
 	.byte	0
-	.long	280
+	.long	258
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1313,7 +1313,7 @@ spec:
 	.byte	11
 	.ascii	 "statusBits"
 	.byte	0
-	.long	867
+	.long	845
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1323,7 +1323,7 @@ spec:
 	.byte	11
 	.ascii	 "commandValues"
 	.byte	0
-	.long	940
+	.long	918
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1345,9 +1345,9 @@ spec:
 	.byte	1
 	.byte	0
 	.byte	5
-	.long	280
+	.long	258
 	.byte	8
-	.long	302
+	.long	280
 	.byte	31
 	.byte	0
 	.byte	10
@@ -1357,7 +1357,7 @@ spec:
 	.byte	11
 	.ascii	 "sectorCount"
 	.byte	0
-	.long	280
+	.long	258
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1367,7 +1367,7 @@ spec:
 	.byte	11
 	.ascii	 "sectorSizesLog2"
 	.byte	0
-	.long	1141
+	.long	1119
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1382,7 +1382,7 @@ spec:
 	.byte	11
 	.ascii	 "regularSectorSize"
 	.byte	0
-	.long	378
+	.long	356
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1392,7 +1392,7 @@ spec:
 	.byte	11
 	.ascii	 "irregularSectorSizes"
 	.byte	0
-	.long	1153
+	.long	1131
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1407,7 +1407,7 @@ spec:
 	.byte	11
 	.ascii	 "flashId"
 	.byte	0
-	.long	378
+	.long	356
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1417,7 +1417,7 @@ spec:
 	.byte	11
 	.ascii	 "pageSize"
 	.byte	0
-	.long	378
+	.long	356
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1427,7 +1427,7 @@ spec:
 	.byte	11
 	.ascii	 "numPages"
 	.byte	0
-	.long	378
+	.long	356
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1437,7 +1437,7 @@ spec:
 	.byte	11
 	.ascii	 "addrSize"
 	.byte	0
-	.long	280
+	.long	258
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1447,7 +1447,7 @@ spec:
 	.byte	11
 	.ascii	 "clockDiv"
 	.byte	0
-	.long	378
+	.long	356
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1457,7 +1457,7 @@ spec:
 	.byte	11
 	.ascii	 "idCommand"
 	.byte	0
-	.long	280
+	.long	258
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1467,7 +1467,7 @@ spec:
 	.byte	11
 	.ascii	 "idDummyBytes"
 	.byte	0
-	.long	280
+	.long	258
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1477,7 +1477,7 @@ spec:
 	.byte	11
 	.ascii	 "idBytes"
 	.byte	0
-	.long	280
+	.long	258
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1487,7 +1487,7 @@ spec:
 	.byte	11
 	.ascii	 "idValue"
 	.byte	0
-	.long	378
+	.long	356
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1497,7 +1497,7 @@ spec:
 	.byte	11
 	.ascii	 "sectorEraseCommand"
 	.byte	0
-	.long	280
+	.long	258
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1507,7 +1507,7 @@ spec:
 	.byte	11
 	.ascii	 "sectorEraseSize"
 	.byte	0
-	.long	378
+	.long	356
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1517,7 +1517,7 @@ spec:
 	.byte	11
 	.ascii	 "writeEnableCommand"
 	.byte	0
-	.long	280
+	.long	258
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1527,7 +1527,7 @@ spec:
 	.byte	11
 	.ascii	 "writeDisableCommand"
 	.byte	0
-	.long	280
+	.long	258
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1537,7 +1537,7 @@ spec:
 	.byte	11
 	.ascii	 "protectionType"
 	.byte	0
-	.long	788
+	.long	766
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1547,7 +1547,7 @@ spec:
 	.byte	11
 	.ascii	 "protection"
 	.byte	0
-	.long	1019
+	.long	997
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1557,7 +1557,7 @@ spec:
 	.byte	11
 	.ascii	 "programPageCommand"
 	.byte	0
-	.long	378
+	.long	356
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1567,7 +1567,7 @@ spec:
 	.byte	11
 	.ascii	 "readCommand"
 	.byte	0
-	.long	280
+	.long	258
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1577,7 +1577,7 @@ spec:
 	.byte	11
 	.ascii	 "readDummyBytes"
 	.byte	0
-	.long	280
+	.long	258
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1587,7 +1587,7 @@ spec:
 	.byte	11
 	.ascii	 "sectorLayout"
 	.byte	0
-	.long	1079
+	.long	1057
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1597,7 +1597,7 @@ spec:
 	.byte	11
 	.ascii	 "sectorSizes"
 	.byte	0
-	.long	1216
+	.long	1194
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1607,7 +1607,7 @@ spec:
 	.byte	11
 	.ascii	 "readSRCommand"
 	.byte	0
-	.long	280
+	.long	258
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1617,7 +1617,7 @@ spec:
 	.byte	11
 	.ascii	 "writeSRCommand"
 	.byte	0
-	.long	378
+	.long	356
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1627,7 +1627,7 @@ spec:
 	.byte	11
 	.ascii	 "wipBitMask"
 	.byte	0
-	.long	280
+	.long	258
 	.byte	1
 	.byte	23
 	.byte	2
@@ -1636,9 +1636,9 @@ spec:
 	.byte	1
 	.byte	0
 	.byte	5
-	.long	1290
+	.long	1268
 	.byte	8
-	.long	302
+	.long	280
 	.byte	0
 	.byte	0
 	.byte	7
@@ -1646,7 +1646,7 @@ spec:
 	.byte	0
 	.ascii	 "spec"
 	.byte	0
-	.long	1849
+	.long	1827
 	.byte	1
 	.byte	1
 	.byte	23
@@ -1666,7 +1666,7 @@ spec:
 	.byte	0
 	.byte	3
 	.byte	46
-	.long	378
+	.long	356
 	.byte	0
 	.byte	14
 	.ascii	 "delay_milliseconds"
@@ -1681,7 +1681,7 @@ spec:
 	.byte	0
 	.byte	3
 	.byte	54
-	.long	378
+	.long	356
 	.byte	0
 	.byte	14
 	.ascii	 "delay_microseconds"
@@ -1696,7 +1696,7 @@ spec:
 	.byte	0
 	.byte	3
 	.byte	62
-	.long	378
+	.long	356
 	.byte	0
 	.byte	16
 	.ascii	 "_safe_memcmp"
@@ -1705,26 +1705,26 @@ spec:
 	.byte	0
 	.byte	4
 	.byte	8
-	.long	2107
+	.long	2085
 	.byte	1
 	.byte	15
 	.ascii	 "s1"
 	.byte	0
 	.byte	4
 	.byte	8
-	.long	3330
+	.long	3308
 	.byte	15
 	.ascii	 "s2"
 	.byte	0
 	.byte	4
 	.byte	8
-	.long	3330
+	.long	3308
 	.byte	15
 	.byte	110
 	.byte	0
 	.byte	4
 	.byte	8
-	.long	378
+	.long	356
 	.byte	0
 	.byte	2
 	.ascii	 "int"
@@ -1738,29 +1738,29 @@ spec:
 	.byte	0
 	.byte	4
 	.byte	12
-	.long	2180
+	.long	2158
 	.byte	1
 	.byte	15
 	.ascii	 "s1"
 	.byte	0
 	.byte	4
 	.byte	12
-	.long	2180
+	.long	2158
 	.byte	15
 	.ascii	 "s2"
 	.byte	0
 	.byte	4
 	.byte	12
-	.long	3330
+	.long	3308
 	.byte	15
 	.byte	110
 	.byte	0
 	.byte	4
 	.byte	12
-	.long	378
+	.long	356
 	.byte	0
 	.byte	17
-	.long	280
+	.long	258
 	.byte	12
 	.byte	16
 	.ascii	 "_safe_memset"
@@ -1769,26 +1769,26 @@ spec:
 	.byte	0
 	.byte	4
 	.byte	18
-	.long	2180
+	.long	2158
 	.byte	1
 	.byte	15
 	.byte	115
 	.byte	0
 	.byte	4
 	.byte	18
-	.long	2180
+	.long	2158
 	.byte	15
 	.byte	99
 	.byte	0
 	.byte	4
 	.byte	18
-	.long	2107
+	.long	2085
 	.byte	15
 	.byte	110
 	.byte	0
 	.byte	4
 	.byte	18
-	.long	378
+	.long	356
 	.byte	0
 	.byte	18
 	.ascii	 "lcd_update"
@@ -1802,13 +1802,13 @@ spec:
 	.byte	0
 	.byte	5
 	.byte	41
-	.long	3205
+	.long	3183
 	.byte	15
 	.ascii	 "buffer"
 	.byte	0
 	.byte	5
 	.byte	41
-	.long	3242
+	.long	3220
 	.byte	19
 	.byte	19
 	.byte	20
@@ -1816,7 +1816,7 @@ spec:
 	.byte	0
 	.byte	5
 	.byte	42
-	.long	378
+	.long	356
 	.byte	0
 	.byte	0
 	.byte	0
@@ -1832,13 +1832,13 @@ spec:
 	.byte	0
 	.byte	5
 	.byte	55
-	.long	3205
+	.long	3183
 	.byte	15
 	.ascii	 "buffer"
 	.byte	0
 	.byte	5
 	.byte	55
-	.long	378
+	.long	356
 	.byte	0
 	.byte	18
 	.ascii	 "lcd_req"
@@ -1852,7 +1852,7 @@ spec:
 	.byte	0
 	.byte	5
 	.byte	65
-	.long	3205
+	.long	3183
 	.byte	0
 	.byte	21
 	.ascii	 "text_display_from_flash"
@@ -1872,35 +1872,35 @@ spec:
 	.byte	0
 	.byte	1
 	.byte	28
-	.long	3205
+	.long	3183
 	.long	.Ldebug_loc0+0
 	.byte	22
 	.ascii	 "curRow"
 	.byte	0
 	.byte	1
 	.byte	28
-	.long	3216
+	.long	3194
 	.long	.Ldebug_loc4+0
 	.byte	22
 	.ascii	 "curCol"
 	.byte	0
 	.byte	1
 	.byte	28
-	.long	3216
+	.long	3194
 	.long	.Ldebug_loc8+0
 	.byte	22
 	.ascii	 "flStart"
 	.byte	0
 	.byte	1
 	.byte	28
-	.long	378
+	.long	356
 	.long	.Ldebug_loc12+0
 	.byte	22
 	.ascii	 "flEnd"
 	.byte	0
 	.byte	1
 	.byte	28
-	.long	378
+	.long	356
 	.long	.Ldebug_loc16+0
 	.byte	23
 	.long	.Ltmp22
@@ -1913,7 +1913,7 @@ spec:
 	.byte	0
 	.byte	1
 	.byte	30
-	.long	3225
+	.long	3203
 	.byte	0
 	.byte	0
 	.byte	0
@@ -1935,28 +1935,28 @@ spec:
 	.byte	0
 	.byte	1
 	.byte	52
-	.long	3205
+	.long	3183
 	.long	.Ldebug_loc18+0
 	.byte	22
 	.ascii	 "text"
 	.byte	0
 	.byte	1
 	.byte	52
-	.long	3252
+	.long	3230
 	.long	.Ldebug_loc23+0
 	.byte	22
 	.ascii	 "cursorRow"
 	.byte	0
 	.byte	1
 	.byte	52
-	.long	3216
+	.long	3194
 	.long	.Ldebug_loc27+0
 	.byte	22
 	.ascii	 "cursorCol"
 	.byte	0
 	.byte	1
 	.byte	52
-	.long	3216
+	.long	3194
 	.long	.Ldebug_loc31+0
 	.byte	23
 	.long	.Ltmp52
@@ -1969,7 +1969,7 @@ spec:
 	.byte	0
 	.byte	1
 	.byte	53
-	.long	3257
+	.long	3235
 	.byte	4
 	.byte	145
 	.ascii	 "\250\314\001"
@@ -1978,7 +1978,7 @@ spec:
 	.byte	0
 	.byte	1
 	.byte	53
-	.long	3270
+	.long	3248
 	.byte	3
 	.byte	145
 	.ascii	 "\250\004"
@@ -1990,26 +1990,26 @@ spec:
 	.byte	0
 	.byte	1
 	.byte	54
-	.long	378
+	.long	356
 	.long	.Ldebug_loc35+0
 	.byte	20
 	.ascii	 "index"
 	.byte	0
 	.byte	1
 	.byte	54
-	.long	378
+	.long	356
 	.byte	20
 	.ascii	 "temp"
 	.byte	0
 	.byte	1
 	.byte	54
-	.long	378
+	.long	356
 	.byte	20
 	.ascii	 "bmapData"
 	.byte	0
 	.byte	1
 	.byte	54
-	.long	378
+	.long	356
 	.byte	23
 	.long	.Ltmp52
 	.long	.Ltmp84
@@ -2018,7 +2018,7 @@ spec:
 	.byte	0
 	.byte	1
 	.byte	55
-	.long	2107
+	.long	2085
 	.byte	4
 	.long	2
 	.byte	25
@@ -2026,45 +2026,45 @@ spec:
 	.byte	0
 	.byte	1
 	.byte	55
-	.long	2107
+	.long	2085
 	.long	.Ldebug_loc39+0
 	.byte	25
 	.ascii	 "charWidth"
 	.byte	0
 	.byte	1
 	.byte	55
-	.long	2107
+	.long	2085
 	.long	.Ldebug_loc42+0
 	.byte	20
 	.ascii	 "pixel"
 	.byte	0
 	.byte	1
 	.byte	55
-	.long	2107
+	.long	2085
 	.byte	20
 	.ascii	 "row"
 	.byte	0
 	.byte	1
 	.byte	55
-	.long	2107
+	.long	2085
 	.byte	20
 	.ascii	 "strPtr"
 	.byte	0
 	.byte	1
 	.byte	55
-	.long	2107
+	.long	2085
 	.byte	20
 	.ascii	 "strWidth"
 	.byte	0
 	.byte	1
 	.byte	55
-	.long	2107
+	.long	2085
 	.byte	20
 	.byte	107
 	.byte	0
 	.byte	1
 	.byte	55
-	.long	2107
+	.long	2085
 	.byte	23
 	.long	.Ltmp52
 	.long	.Ltmp84
@@ -2073,7 +2073,7 @@ spec:
 	.byte	0
 	.byte	1
 	.byte	56
-	.long	3307
+	.long	3285
 	.byte	2
 	.byte	145
 	.byte	40
@@ -2085,25 +2085,25 @@ spec:
 	.byte	0
 	.byte	1
 	.byte	57
-	.long	2107
+	.long	2085
 	.byte	20
 	.ascii	 "line"
 	.byte	0
 	.byte	1
 	.byte	57
-	.long	2107
+	.long	2085
 	.byte	20
 	.ascii	 "count"
 	.byte	0
 	.byte	1
 	.byte	57
-	.long	2107
+	.long	2085
 	.byte	20
 	.ascii	 "bufIndex"
 	.byte	0
 	.byte	1
 	.byte	57
-	.long	2107
+	.long	2085
 	.byte	23
 	.long	.Ltmp52
 	.long	.Ltmp84
@@ -2112,13 +2112,13 @@ spec:
 	.byte	0
 	.byte	1
 	.byte	58
-	.long	3289
+	.long	3267
 	.byte	20
 	.ascii	 "textColor"
 	.byte	0
 	.byte	1
 	.byte	58
-	.long	3289
+	.long	3267
 	.byte	27
 	.long	.Ldebug_range+24
 	.byte	20
@@ -2126,7 +2126,7 @@ spec:
 	.byte	0
 	.byte	1
 	.byte	65
-	.long	2107
+	.long	2085
 	.byte	27
 	.long	.Ldebug_range+0
 	.byte	20
@@ -2134,7 +2134,7 @@ spec:
 	.byte	0
 	.byte	1
 	.byte	66
-	.long	2107
+	.long	2085
 	.byte	0
 	.byte	0
 	.byte	23
@@ -2145,7 +2145,7 @@ spec:
 	.byte	0
 	.byte	1
 	.byte	79
-	.long	2107
+	.long	2085
 	.byte	23
 	.long	.Ltmp62
 	.long	.Ltmp63
@@ -2154,7 +2154,7 @@ spec:
 	.byte	0
 	.byte	1
 	.byte	80
-	.long	2107
+	.long	2085
 	.byte	0
 	.byte	0
 	.byte	0
@@ -2176,32 +2176,32 @@ spec:
 	.byte	5
 	.byte	2
 	.byte	5
-	.long	280
+	.long	258
 	.byte	8
-	.long	302
+	.long	280
 	.byte	99
 	.byte	0
 	.byte	28
-	.long	378
+	.long	356
 	.byte	29
-	.long	3237
+	.long	3215
 	.byte	28
-	.long	280
+	.long	258
 	.byte	29
-	.long	3247
+	.long	3225
 	.byte	5
-	.long	378
+	.long	356
 	.byte	6
-	.long	302
+	.long	280
 	.short	399
 	.byte	0
 	.byte	5
-	.long	378
+	.long	356
 	.byte	8
-	.long	302
+	.long	280
 	.byte	15
 	.byte	6
-	.long	302
+	.long	280
 	.short	399
 	.byte	0
 	.byte	2
@@ -2210,18 +2210,18 @@ spec:
 	.byte	7
 	.byte	2
 	.byte	5
-	.long	3289
+	.long	3267
 	.byte	8
-	.long	302
+	.long	280
 	.byte	15
 	.byte	8
-	.long	302
+	.long	280
 	.byte	15
 	.byte	0
 	.byte	28
-	.long	297
+	.long	275
 	.byte	29
-	.long	3325
+	.long	3303
 	.byte	0
 .Linfo_end1:
 	.section	.debug_abbrev,"",@progbits
@@ -2587,39 +2587,39 @@ spec:
 	.long	.Linfo_begin1
 .Lset1 = .Linfo_end1-.Linfo_begin1
 	.long	.Lset1
-	.long	2602
+	.long	2580
 .asciiz "text_display_set_string"
-	.long	2327
+	.long	2305
 .asciiz "lcd_update_p"
-	.long	750
+	.long	728
 .asciiz "flash_ports"
-	.long	2186
+	.long	2164
 .asciiz "_safe_memset"
-	.long	1861
+	.long	1839
 .asciiz "spec"
-	.long	488
+	.long	466
 .asciiz "verdana_16h_index_table"
-	.long	318
+	.long	296
 .asciiz "verdana_16h_data_table"
-	.long	2114
+	.long	2092
 .asciiz "_safe_memmove"
-	.long	1931
+	.long	1909
 .asciiz "delay_milliseconds"
-	.long	563
+	.long	541
 .asciiz "verdana_16h_width_table"
-	.long	2248
+	.long	2226
 .asciiz "lcd_update"
-	.long	1987
+	.long	1965
 .asciiz "delay_microseconds"
-	.long	2384
+	.long	2362
 .asciiz "lcd_req"
-	.long	2417
+	.long	2395
 .asciiz "text_display_from_flash"
-	.long	2043
+	.long	2021
 .asciiz "_safe_memcmp"
-	.long	411
+	.long	389
 .asciiz "verdana_16h_offset_table"
-	.long	1885
+	.long	1863
 .asciiz "delay_seconds"
 	.long	0
 .Lpubnames_end1:
@@ -2631,23 +2631,23 @@ spec:
 	.long	.Linfo_begin1
 .Lset3 = .Linfo_end1-.Linfo_begin1
 	.long	.Lset3
-	.long	1019
+	.long	997
 .asciiz "__TYPE_10"
-	.long	867
+	.long	845
 .asciiz "__TYPE_11"
-	.long	940
+	.long	918
 .asciiz "__TYPE_12"
-	.long	1216
+	.long	1194
 .asciiz "__TYPE_13"
-	.long	1153
+	.long	1131
 .asciiz "__TYPE_14"
-	.long	643
+	.long	621
 .asciiz "__TYPE_15"
-	.long	788
+	.long	766
 .asciiz "__TYPE_7"
-	.long	1079
+	.long	1057
 .asciiz "__TYPE_8"
-	.long	1290
+	.long	1268
 .asciiz "__TYPE_9"
 	.long	0
 .Lpubtypes_end1:
@@ -2904,70 +2904,70 @@ spec:
 .Lentries_start0:
 	.long	.Lentries_end1-.Lentries_start0
 	.long	0
-	.ascii	 "J:\\ProjectEstimated2014\\XMOS\\HMI\\REF_8080_RGB\\HMI\\slave\\app_text_display\\.build_Debug"
+	.ascii	 "E:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\app_text_display\\.build_Debug"
 	.byte	0
 .cc_top cc_0,.Lxta.call_labels0
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	33
 	.long	.Lxta.call_labels0
 .cc_bottom cc_0
 .cc_top cc_1,.Lxta.call_labels1
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	34
 	.long	.Lxta.call_labels1
 .cc_bottom cc_1
 .cc_top cc_2,.Lxta.call_labels2
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	35
 	.long	.Lxta.call_labels2
 .cc_bottom cc_2
 .cc_top cc_3,.Lxta.call_labels3
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	39
 	.long	.Lxta.call_labels3
 .cc_bottom cc_3
 .cc_top cc_4,.Lxta.call_labels4
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	40
 	.long	.Lxta.call_labels4
 .cc_bottom cc_4
 .cc_top cc_5,.Lxta.call_labels5
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	41
 	.long	.Lxta.call_labels5
 .cc_bottom cc_5
 .cc_top cc_6,.Lxta.call_labels6
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	45
 	.long	.Lxta.call_labels6
 .cc_bottom cc_6
 .cc_top cc_7,.Lxta.call_labels7
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	61
 	.long	.Lxta.call_labels7
 .cc_bottom cc_7
 .cc_top cc_8,.Lxta.call_labels8
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	62
 	.long	.Lxta.call_labels8
 .cc_bottom cc_8
 .cc_top cc_9,.Lxta.call_labels9
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	70
 	.long	.Lxta.call_labels9
 .cc_bottom cc_9
 .cc_top cc_10,.Lxta.call_labels10
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	70
 	.long	.Lxta.call_labels10
@@ -2977,7 +2977,7 @@ spec:
 .Lentries_start2:
 	.long	.Lentries_end3-.Lentries_start2
 	.long	0
-	.ascii	 "J:\\ProjectEstimated2014\\XMOS\\HMI\\REF_8080_RGB\\HMI\\slave\\app_text_display\\.build_Debug"
+	.ascii	 "E:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\app_text_display\\.build_Debug"
 	.byte	0
 .cc_top cc_11,.Lxta.endpoint_labels0
 	.ascii	 "lcd.h"
@@ -3002,290 +3002,290 @@ spec:
 .Lentries_start4:
 	.long	.Lentries_end5-.Lentries_start4
 	.long	0
-	.ascii	 "J:\\ProjectEstimated2014\\XMOS\\HMI\\REF_8080_RGB\\HMI\\slave\\app_text_display\\.build_Debug"
+	.ascii	 "E:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\app_text_display\\.build_Debug"
 	.byte	0
 .cc_top cc_14,.Lxtalabel0
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	29
 	.long	33
 	.long	.Lxtalabel0
 .cc_bottom cc_14
 .cc_top cc_15,.Lxtalabel1
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	34
 	.long	36
 	.long	.Lxtalabel1
 .cc_bottom cc_15
 .cc_top cc_16,.Lxtalabel2
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	37
 	.long	39
 	.long	.Lxtalabel2
 .cc_bottom cc_16
 .cc_top cc_17,.Lxtalabel3
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	40
 	.long	42
 	.long	.Lxtalabel3
 .cc_bottom cc_17
 .cc_top cc_18,.Lxtalabel4
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	43
 	.long	47
 	.long	.Lxtalabel4
 .cc_bottom cc_18
 .cc_top cc_19,.Lxtalabel5
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	53
 	.long	65
 	.long	.Lxtalabel5
 .cc_bottom cc_19
 .cc_top cc_20,.Lxtalabel6
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	66
 	.long	66
 	.long	.Lxtalabel6
 .cc_bottom cc_20
 .cc_top cc_21,.Lxtalabel7
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	67
 	.long	67
 	.long	.Lxtalabel7
 .cc_bottom cc_21
 .cc_top cc_22,.Lxtalabel8
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	68
 	.long	70
 	.long	.Lxtalabel8
 .cc_bottom cc_22
 .cc_top cc_23,.Lxtalabel9
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	71
 	.long	79
 	.long	.Lxtalabel9
 .cc_bottom cc_23
 .cc_top cc_24,.Lxtalabel10
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	80
 	.long	80
 	.long	.Lxtalabel10
 .cc_bottom cc_24
 .cc_top cc_25,.Lxtalabel11
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	81
 	.long	81
 	.long	.Lxtalabel11
 .cc_bottom cc_25
 .cc_top cc_26,.Lxtalabel12
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	82
 	.long	86
 	.long	.Lxtalabel12
 .cc_bottom cc_26
 .cc_top cc_27,.Lxtalabel13
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	87
 	.long	90
 	.long	.Lxtalabel13
 .cc_bottom cc_27
 .cc_top cc_28,.Lxtalabel14
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	91
 	.long	91
 	.long	.Lxtalabel14
 .cc_bottom cc_28
 .cc_top cc_29,.Lxtalabel17
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	92
 	.long	93
 	.long	.Lxtalabel17
 .cc_bottom cc_29
 .cc_top cc_30,.Lxtalabel15
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	94
 	.long	95
 	.long	.Lxtalabel15
 .cc_bottom cc_30
 .cc_top cc_31,.Lxtalabel16
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	94
 	.long	95
 	.long	.Lxtalabel16
 .cc_bottom cc_31
 .cc_top cc_32,.Lxtalabel15
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	100
 	.long	101
 	.long	.Lxtalabel15
 .cc_bottom cc_32
 .cc_top cc_33,.Lxtalabel16
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	100
 	.long	101
 	.long	.Lxtalabel16
 .cc_bottom cc_33
 .cc_top cc_34,.Lxtalabel18
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	102
 	.long	107
 	.long	.Lxtalabel18
 .cc_bottom cc_34
 .cc_top cc_35,.Lxtalabel19
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	108
 	.long	108
 	.long	.Lxtalabel19
 .cc_bottom cc_35
 .cc_top cc_36,.Lxtalabel20
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	109
 	.long	110
 	.long	.Lxtalabel20
 .cc_bottom cc_36
 .cc_top cc_37,.Lxtalabel20
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	111
 	.long	118
 	.long	.Lxtalabel20
 .cc_bottom cc_37
 .cc_top cc_38,.Lxtalabel21
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	119
 	.long	120
 	.long	.Lxtalabel21
 .cc_bottom cc_38
 .cc_top cc_39,.Lxtalabel22
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	121
 	.long	121
 	.long	.Lxtalabel22
 .cc_bottom cc_39
 .cc_top cc_40,.Lxtalabel23
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	122
 	.long	124
 	.long	.Lxtalabel23
 .cc_bottom cc_40
 .cc_top cc_41,.Lxtalabel24
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	122
 	.long	124
 	.long	.Lxtalabel24
 .cc_bottom cc_41
 .cc_top cc_42,.Lxtalabel25
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	122
 	.long	124
 	.long	.Lxtalabel25
 .cc_bottom cc_42
 .cc_top cc_43,.Lxtalabel26
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	122
 	.long	124
 	.long	.Lxtalabel26
 .cc_bottom cc_43
 .cc_top cc_44,.Lxtalabel23
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	130
 	.long	130
 	.long	.Lxtalabel23
 .cc_bottom cc_44
 .cc_top cc_45,.Lxtalabel24
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	130
 	.long	130
 	.long	.Lxtalabel24
 .cc_bottom cc_45
 .cc_top cc_46,.Lxtalabel25
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	130
 	.long	130
 	.long	.Lxtalabel25
 .cc_bottom cc_46
 .cc_top cc_47,.Lxtalabel26
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	130
 	.long	130
 	.long	.Lxtalabel26
 .cc_bottom cc_47
 .cc_top cc_48,.Lxtalabel27
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	131
 	.long	134
 	.long	.Lxtalabel27
 .cc_bottom cc_48
 .cc_top cc_49,.Lxtalabel28
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	138
 	.long	138
 	.long	.Lxtalabel28
 .cc_bottom cc_49
 .cc_top cc_50,.Lxtalabel29
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	142
 	.long	143
 	.long	.Lxtalabel29
 .cc_bottom cc_50
 .cc_top cc_51,.Lxtalabel32
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	144
 	.long	146
 	.long	.Lxtalabel32
 .cc_bottom cc_51
 .cc_top cc_52,.Lxtalabel33
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	144
 	.long	146
 	.long	.Lxtalabel33
 .cc_bottom cc_52
 .cc_top cc_53,.Lxtalabel30
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	147
 	.long	147
 	.long	.Lxtalabel30
 .cc_bottom cc_53
 .cc_top cc_54,.Lxtalabel34
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	148
 	.long	149
@@ -3324,87 +3324,87 @@ spec:
 .Lentries_start6:
 	.long	.Lentries_end7-.Lentries_start6
 	.long	0
-	.ascii	 "J:\\ProjectEstimated2014\\XMOS\\HMI\\REF_8080_RGB\\HMI\\slave\\app_text_display\\.build_Debug"
+	.ascii	 "E:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\app_text_display\\.build_Debug"
 	.byte	0
 .cc_top cc_59,.Lxta.loop_labels1
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	66
 	.long	66
 	.long	.Lxta.loop_labels1
 .cc_bottom cc_59
 .cc_top cc_60,.Lxta.loop_labels0
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	67
 	.long	67
 	.long	.Lxta.loop_labels0
 .cc_bottom cc_60
 .cc_top cc_61,.Lxta.loop_labels6
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	71
 	.long	79
 	.long	.Lxta.loop_labels6
 .cc_bottom cc_61
 .cc_top cc_62,.Lxta.loop_labels3
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	80
 	.long	80
 	.long	.Lxta.loop_labels3
 .cc_bottom cc_62
 .cc_top cc_63,.Lxta.loop_labels2
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	81
 	.long	81
 	.long	.Lxta.loop_labels2
 .cc_bottom cc_63
 .cc_top cc_64,.Lxta.loop_labels6
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	82
 	.long	86
 	.long	.Lxta.loop_labels6
 .cc_bottom cc_64
 .cc_top cc_65,.Lxta.loop_labels4
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	87
 	.long	108
 	.long	.Lxta.loop_labels4
 .cc_bottom cc_65
 .cc_top cc_66,.Lxta.loop_labels6
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	109
 	.long	118
 	.long	.Lxta.loop_labels6
 .cc_bottom cc_66
 .cc_top cc_67,.Lxta.loop_labels5
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	119
 	.long	130
 	.long	.Lxta.loop_labels5
 .cc_bottom cc_67
 .cc_top cc_68,.Lxta.loop_labels6
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	131
 	.long	134
 	.long	.Lxta.loop_labels6
 .cc_bottom cc_68
 .cc_top cc_69,.Lxta.loop_labels7
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	138
 	.long	138
 	.long	.Lxta.loop_labels7
 .cc_bottom cc_69
 .cc_top cc_70,.Lxta.loop_labels8
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/text_display.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/text_display.xc"
 	.byte	0
 	.long	144
 	.long	150

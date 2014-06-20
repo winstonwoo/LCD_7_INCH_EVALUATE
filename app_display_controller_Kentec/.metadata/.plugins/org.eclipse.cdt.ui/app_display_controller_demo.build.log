@@ -1,0 +1,13 @@
+
+**** Build of configuration Default for project app_display_controller_demo ****
+
+xmake all 
+Using modules: module_display_controller module_i2c_master module_lcd module_sdram module_touch_controller_lib
+WARNING: Duplicate header found: lcd_conf_example.h
+"WARNING: Found in: E:/Pro2014/xmos/SW/SPACE/module_display_controller/lcd_conf_example.h E:/Pro2014/xmos/SW/SPACE/module_lcd/lcd_conf_example.h"
+WARNING: Duplicate header found: sdram_conf_example.h
+"WARNING: Found in: E:/Pro2014/xmos/SW/SPACE/module_display_controller/sdram_conf_example.h E:/Pro2014/xmos/SW/SPACE/module_sdram/sdram_conf_example.h"
+Creating app_display_controller_demo.xe
+cd ./.build && xcc -target="XS1-L8A-64-TQ128-C5" -O3 -g    "..\.\.build\src\loader.c.o" "..\.\.build\src\app_display_controller_demo.xc.o" "..\.\.build\src\chan.xc.o" "..\.\.build\m_display_controller\src\display_controller.xc.o" "..\.\.build\m_display_controller\src\display_controller_client.xc.o" "..\.\.build\m_display_controller\src\transitions.xc.o" "..\.\.build\m_i2c_master\src\i2c-mm.xc.o" "..\.\.build\m_lcd\src\lcd.xc.o" "..\.\.build\m_sdram\src\sdram_client.xc.o" "..\.\.build\m_sdram\src\PINOUT_V0\sdram_server_PINOUT_V0.xc.o" "..\.\.build\m_sdram\src\PINOUT_V1_IS42S16160D\sdram_server_PINOUT_V1_IS42S16160D.xc.o" "..\.\.build\m_sdram\src\PINOUT_V1_IS42S16400F\sdram_server_PINOUT_V1_IS42S16400F.xc.o" "..\.\.build\m_sdram\src\PINOUT_V2_IS42S16400F\sdram_server_PINOUT_V2_IS42S16400F.xc.o" "..\.\.build\m_touch_controller_lib\src\touch_controller_lib.xc.o" "..\.\.build\m_touch_controller_lib\src\AD7879-1\touch_controller_impl.xc.o" "..\.\.build\m_lcd\src\lcd_assembly.s.o" "..\.\.build\m_sdram\src\PINOUT_V0\sdram_io_PINOUT_V0.s.o" "..\.\.build\m_sdram\src\PINOUT_V1_IS42S16160D\sdram_io_PINOUT_V1_IS42S16160D.s.o" "..\.\.build\m_sdram\src\PINOUT_V1_IS42S16400F\sdram_io_PINOUT_V1_IS42S16400F.s.o" "..\.\.build\m_sdram\src\PINOUT_V2_IS42S16400F\sdram_io_PINOUT_V2_IS42S16400F.s.o"     -o "..\bin\\app_display_controller_demo.xe"
+../src/app_display_controller_demo.xc:11: warning: bidirectional buffered port not supported in hardware (port should have in or out qualifier)
+Build Complete

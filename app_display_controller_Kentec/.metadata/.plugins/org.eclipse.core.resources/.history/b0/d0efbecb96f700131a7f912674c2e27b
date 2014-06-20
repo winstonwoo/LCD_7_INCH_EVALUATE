@@ -1,0 +1,41 @@
+<? xml version =" 1.0 " encoding =" UTF -8 "?>
+
+<Network xmlns="http://www.xmos.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.xmos.com http://www.xmos.com" >
+        
+    <Type>Device</Type>
+    <Name>XS1-L8A-64-TQ128-C5 Device</Name>
+    <Declarations>
+        <Declaration>tileref tile[1]</Declaration>
+    </Declarations>
+    
+    
+    <Packages>
+        <Package Id="0" Type="XS1-LnA-64-TQ128" >
+            <Nodes>
+                <Node Id="0" InPackageId="0" Type="XS1-L8A-64" Oscillator="25MHz" SystemFrequency="500MHz">
+                    <Boot>
+                        <Source Location="SPI:bootFlash" />
+                    </Boot>
+                    <Tile Number="0" Reference="tile[0]">                    
+                    </Tile>
+                </Node>
+            </Nodes>
+        </Package> 
+    </Packages>
+
+    <ExternalDevices>
+        <Device NodeId="0" Name="bootFlash" Class="SPIFlash" Type="M25P16" Tile="0">
+            <Attribute Name="PORT_SPI_MISO" Value="PORT_SPI_MISO" />
+            <Attribute Name="PORT_SPI_SS" Value="PORT_SPI_SS" />
+            <Attribute Name="PORT_SPI_CLK" Value="PORT_SPI_CLK" />
+            <Attribute Name="PORT_SPI_MOSI" Value="PORT_SPI_MOSI" />
+        </Device>
+    </ExternalDevices>
+
+    <JTAGChain>
+        <JTAGDevice NodeId="0"/>
+    </JTAGChain>
+
+</Network>

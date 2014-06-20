@@ -1,3 +1,3 @@
-#Tue Jun 17 14:51:47 CST 2014
-task-tag-projects-already-scanned=app_kentec_display_i8080,app_text_display,app_text_display_slave,flash_write,i8080_slave_demo,module_control_unit,module_display_controller,module_kentec_i8080_slave,module_kentec_text_display,module_lcd,module_sdram,my_xmos_display
+#Thu Jun 19 13:33:05 CST 2014
+task-tag-projects-already-scanned=app_kentec_display_i8080,app_text_display,app_text_display_slave,flash_write,i8080_slave_demo,module_control_unit,module_display_controller,module_kentec_i8080_slave,module_kentec_text_display,module_lcd,module_sdram,module_random
 eclipse.preferences.version=1

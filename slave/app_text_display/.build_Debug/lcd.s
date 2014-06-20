@@ -1,4 +1,4 @@
-	.file	"J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+	.file	"E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
 
 	.inline_definition delay_seconds
 	.inline_definition delay_milliseconds
@@ -51,9 +51,9 @@
 	.set lcd_server.locnonotificationselect, 1
 
 
-	.file	1 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
-	.file	2 "J:\\ProjectEstimated2014\\XMOS\\HMI\\REF_8080_RGB\\HMI\\slave\\app_text_display\\.build_Debug\\timer.h"
-	.file	3 "J:\\ProjectEstimated2014\\XMOS\\HMI\\REF_8080_RGB\\HMI\\slave\\app_text_display\\.build_Debug\\lcd.h"
+	.file	1 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
+	.file	2 "E:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\app_text_display\\.build_Debug\\timer.h"
+	.file	3 "E:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\app_text_display\\.build_Debug\\lcd.h"
 	.section	.debug_info,"",@progbits
 .Lsection_info:
 	.section	.debug_abbrev,"",@progbits
@@ -191,13 +191,13 @@ lcd_server:
 .Lxta.call_labels1:
 	bl lcd_fast_write
 .Ltmp30:
-	.loc	1 105 0
+	.loc	1 110 0
 	add r0, r9, r8
 .Ltmp31:
 	.loc	1 76 0
 	add r7, r7, 1
 	eq r1, r7, r5
-	.loc	1 104 0
+	.loc	1 109 0
 .Lxta.endpoint_labels3:
 	outct res[r4], 1
 .xtaloop 480
@@ -208,7 +208,7 @@ lcd_server:
 	bf r1, .LBB0_2
 .Ltmp32:
 	ldc r0, 6896
-	.loc	1 112 0
+	.loc	1 117 0
 .Ltmp33:
 	add r0, r9, r0
 	mov r2, r6
@@ -272,7 +272,7 @@ lcd_init:
 .Lsection_end1:
 	.section	.debug_info,"",@progbits
 .Linfo_begin1:
-	.long	979
+	.long	957
 	.short	2
 	.long	.Labbrev_begin
 	.byte	4
@@ -280,11 +280,11 @@ lcd_init:
 	.ascii	 "XMOS 32-bit XC Compiler Community_13.1.0 (build 12073, May-09-2014)"
 	.byte	0
 	.short	49152
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
 	.byte	0
 	.long	0
 	.long	.Lsection_line
-	.ascii	 "J:\\ProjectEstimated2014\\XMOS\\HMI\\REF_8080_RGB\\HMI\\slave\\app_text_display\\.build_Debug"
+	.ascii	 "E:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\app_text_display\\.build_Debug"
 	.byte	0
 	.byte	1
 	.byte	2
@@ -300,7 +300,7 @@ lcd_init:
 	.byte	0
 	.byte	2
 	.byte	46
-	.long	946
+	.long	924
 	.byte	0
 	.byte	2
 	.ascii	 "delay_milliseconds"
@@ -315,7 +315,7 @@ lcd_init:
 	.byte	0
 	.byte	2
 	.byte	54
-	.long	946
+	.long	924
 	.byte	0
 	.byte	2
 	.ascii	 "delay_microseconds"
@@ -330,7 +330,7 @@ lcd_init:
 	.byte	0
 	.byte	2
 	.byte	62
-	.long	946
+	.long	924
 	.byte	0
 	.byte	4
 	.ascii	 "lcd_update"
@@ -344,19 +344,19 @@ lcd_init:
 	.byte	0
 	.byte	3
 	.byte	41
-	.long	815
+	.long	793
 	.byte	3
 	.ascii	 "buffer"
 	.byte	0
 	.byte	3
 	.byte	41
-	.long	977
+	.long	955
 	.byte	5
 	.ascii	 "buffer_pointer"
 	.byte	0
 	.byte	3
 	.byte	42
-	.long	946
+	.long	924
 	.byte	0
 	.byte	4
 	.ascii	 "lcd_update_p"
@@ -370,13 +370,13 @@ lcd_init:
 	.byte	0
 	.byte	3
 	.byte	55
-	.long	815
+	.long	793
 	.byte	3
 	.ascii	 "buffer"
 	.byte	0
 	.byte	3
 	.byte	55
-	.long	946
+	.long	924
 	.byte	0
 	.byte	4
 	.ascii	 "lcd_req"
@@ -390,7 +390,7 @@ lcd_init:
 	.byte	0
 	.byte	3
 	.byte	65
-	.long	815
+	.long	793
 	.byte	0
 	.byte	6
 	.ascii	 "lcd_init"
@@ -410,7 +410,7 @@ lcd_init:
 	.byte	0
 	.byte	1
 	.byte	9
-	.long	815
+	.long	793
 	.long	.Ldebug_loc14+0
 	.byte	0
 	.byte	6
@@ -431,14 +431,14 @@ lcd_init:
 	.byte	0
 	.byte	1
 	.byte	14
-	.long	815
+	.long	793
 	.long	.Ldebug_loc0+0
 	.byte	7
 	.byte	112
 	.byte	0
 	.byte	1
 	.byte	14
-	.long	941
+	.long	919
 	.long	.Ldebug_loc4+0
 	.byte	8
 	.long	.Ltmp20
@@ -451,7 +451,7 @@ lcd_init:
 	.byte	0
 	.byte	1
 	.byte	15
-	.long	946
+	.long	924
 	.long	.Ldebug_loc7+0
 	.byte	8
 	.long	.Ltmp24
@@ -461,7 +461,7 @@ lcd_init:
 	.byte	0
 	.byte	1
 	.byte	50
-	.long	946
+	.long	924
 	.long	.Ldebug_loc12+0
 	.byte	8
 	.long	.Ltmp24
@@ -471,7 +471,7 @@ lcd_init:
 	.byte	0
 	.byte	1
 	.byte	51
-	.long	946
+	.long	924
 	.byte	8
 	.long	.Ltmp27
 	.long	.Ltmp32
@@ -480,7 +480,7 @@ lcd_init:
 	.byte	0
 	.byte	1
 	.byte	76
-	.long	962
+	.long	940
 	.byte	0
 	.byte	8
 	.long	.Ltmp33
@@ -489,8 +489,8 @@ lcd_init:
 	.byte	105
 	.byte	0
 	.byte	1
-	.byte	108
-	.long	946
+	.byte	113
+	.long	924
 	.byte	0
 	.byte	0
 	.byte	0
@@ -519,7 +519,7 @@ lcd_init:
 	.byte	12
 	.ascii	 "lcd_clk"
 	.byte	0
-	.long	826
+	.long	804
 	.byte	1
 	.byte	14
 	.byte	2
@@ -529,7 +529,7 @@ lcd_init:
 	.byte	12
 	.ascii	 "lcd_data_enabled"
 	.byte	0
-	.long	826
+	.long	804
 	.byte	1
 	.byte	14
 	.byte	2
@@ -539,7 +539,7 @@ lcd_init:
 	.byte	12
 	.ascii	 "lcd_rgb"
 	.byte	0
-	.long	826
+	.long	804
 	.byte	1
 	.byte	14
 	.byte	2
@@ -549,7 +549,7 @@ lcd_init:
 	.byte	12
 	.ascii	 "clk_lcd"
 	.byte	0
-	.long	834
+	.long	812
 	.byte	1
 	.byte	14
 	.byte	2
@@ -558,7 +558,7 @@ lcd_init:
 	.byte	1
 	.byte	0
 	.byte	13
-	.long	843
+	.long	821
 	.byte	10
 	.ascii	 "unsigned int"
 	.byte	0
@@ -573,9 +573,9 @@ lcd_init:
 	.byte	4
 	.byte	5
 	.byte	15
-	.long	946
+	.long	924
 	.byte	13
-	.long	972
+	.long	950
 	.byte	0
 .Linfo_end1:
 	.section	.debug_abbrev,"",@progbits
@@ -785,21 +785,21 @@ lcd_init:
 	.long	.Linfo_begin1
 .Lset1 = .Linfo_end1-.Linfo_begin1
 	.long	.Lset1
-	.long	301
+	.long	279
 .asciiz "delay_milliseconds"
-	.long	413
+	.long	391
 .asciiz "lcd_update"
-	.long	578
+	.long	556
 .asciiz "lcd_init"
-	.long	357
+	.long	335
 .asciiz "delay_microseconds"
-	.long	629
+	.long	607
 .asciiz "lcd_server"
-	.long	488
+	.long	466
 .asciiz "lcd_update_p"
-	.long	545
+	.long	523
 .asciiz "lcd_req"
-	.long	255
+	.long	233
 .asciiz "delay_seconds"
 	.long	0
 .Lpubnames_end1:
@@ -811,7 +811,7 @@ lcd_init:
 	.long	.Linfo_begin1
 .Lset3 = .Linfo_end1-.Linfo_begin1
 	.long	.Lset3
-	.long	843
+	.long	821
 .asciiz "lcd_ports"
 	.long	0
 .Lpubtypes_end1:
@@ -914,16 +914,16 @@ lcd_init:
 .Lentries_start0:
 	.long	.Lentries_end1-.Lentries_start0
 	.long	0
-	.ascii	 "J:\\ProjectEstimated2014\\XMOS\\HMI\\REF_8080_RGB\\HMI\\slave\\app_text_display\\.build_Debug"
+	.ascii	 "E:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\app_text_display\\.build_Debug"
 	.byte	0
 .cc_top cc_0,.Lxta.call_labels0
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
 	.byte	0
 	.long	17
 	.long	.Lxta.call_labels0
 .cc_bottom cc_0
 .cc_top cc_1,.Lxta.call_labels1
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
 	.byte	0
 	.long	87
 	.long	.Lxta.call_labels1
@@ -933,36 +933,36 @@ lcd_init:
 .Lentries_start2:
 	.long	.Lentries_end3-.Lentries_start2
 	.long	0
-	.ascii	 "J:\\ProjectEstimated2014\\XMOS\\HMI\\REF_8080_RGB\\HMI\\slave\\app_text_display\\.build_Debug"
+	.ascii	 "E:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\app_text_display\\.build_Debug"
 	.byte	0
 .cc_top cc_2,.Lxta.endpoint_labels4
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
 	.byte	0
 	.long	10
 	.long	.Lxta.endpoint_labels4
 .cc_bottom cc_2
 .cc_top cc_3,.Lxta.endpoint_labels0
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
 	.byte	0
 	.long	38
 	.long	.Lxta.endpoint_labels0
 .cc_bottom cc_3
 .cc_top cc_4,.Lxta.endpoint_labels1
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
 	.byte	0
 	.long	45
 	.long	.Lxta.endpoint_labels1
 .cc_bottom cc_4
 .cc_top cc_5,.Lxta.endpoint_labels2
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
 	.byte	0
 	.long	83
 	.long	.Lxta.endpoint_labels2
 .cc_bottom cc_5
 .cc_top cc_6,.Lxta.endpoint_labels3
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
 	.byte	0
-	.long	104
+	.long	109
 	.long	.Lxta.endpoint_labels3
 .cc_bottom cc_6
 .Lentries_end3:
@@ -970,90 +970,90 @@ lcd_init:
 .Lentries_start4:
 	.long	.Lentries_end5-.Lentries_start4
 	.long	0
-	.ascii	 "J:\\ProjectEstimated2014\\XMOS\\HMI\\REF_8080_RGB\\HMI\\slave\\app_text_display\\.build_Debug"
+	.ascii	 "E:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\app_text_display\\.build_Debug"
 	.byte	0
 .cc_top cc_7,.Lxtalabel3
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
 	.byte	0
 	.long	10
 	.long	11
 	.long	.Lxtalabel3
 .cc_bottom cc_7
 .cc_top cc_8,.Lxtalabel0
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
 	.byte	0
 	.long	15
 	.long	26
 	.long	.Lxtalabel0
 .cc_bottom cc_8
 .cc_top cc_9,.Lxtalabel0
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
 	.byte	0
 	.long	35
 	.long	39
 	.long	.Lxtalabel0
 .cc_bottom cc_9
 .cc_top cc_10,.Lxtalabel0
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
 	.byte	0
 	.long	45
 	.long	49
 	.long	.Lxtalabel0
 .cc_bottom cc_10
 .cc_top cc_11,.Lxtalabel1
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
 	.byte	0
 	.long	50
 	.long	52
 	.long	.Lxtalabel1
 .cc_bottom cc_11
 .cc_top cc_12,.Lxtalabel1
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
 	.byte	0
 	.long	56
 	.long	56
 	.long	.Lxtalabel1
 .cc_bottom cc_12
 .cc_top cc_13,.Lxtalabel1
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
 	.byte	0
 	.long	63
 	.long	63
 	.long	.Lxtalabel1
 .cc_bottom cc_13
 .cc_top cc_14,.Lxtalabel1
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
 	.byte	0
 	.long	73
 	.long	76
 	.long	.Lxtalabel1
 .cc_bottom cc_14
 .cc_top cc_15,.Lxtalabel2
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
 	.byte	0
 	.long	77
 	.long	78
 	.long	.Lxtalabel2
 .cc_bottom cc_15
 .cc_top cc_16,.Lxtalabel2
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
 	.byte	0
 	.long	81
 	.long	89
 	.long	.Lxtalabel2
 .cc_bottom cc_16
 .cc_top cc_17,.Lxtalabel2
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
 	.byte	0
-	.long	104
-	.long	106
+	.long	109
+	.long	111
 	.long	.Lxtalabel2
 .cc_bottom cc_17
 .cc_top cc_18,.Lxtalabel2
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
 	.byte	0
-	.long	107
-	.long	108
+	.long	112
+	.long	113
 	.long	.Lxtalabel2
 .cc_bottom cc_18
 .Lentries_end5:
@@ -1061,27 +1061,27 @@ lcd_init:
 .Lentries_start6:
 	.long	.Lentries_end7-.Lentries_start6
 	.long	0
-	.ascii	 "J:\\ProjectEstimated2014\\XMOS\\HMI\\REF_8080_RGB\\HMI\\slave\\app_text_display\\.build_Debug"
+	.ascii	 "E:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\app_text_display\\.build_Debug"
 	.byte	0
 .cc_top cc_19,.Lxta.loop_labels0
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
 	.byte	0
 	.long	77
 	.long	78
 	.long	.Lxta.loop_labels0
 .cc_bottom cc_19
 .cc_top cc_20,.Lxta.loop_labels0
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
 	.byte	0
 	.long	81
 	.long	89
 	.long	.Lxta.loop_labels0
 .cc_bottom cc_20
 .cc_top cc_21,.Lxta.loop_labels0
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_lcd/src/lcd.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_lcd/src/lcd.xc"
 	.byte	0
-	.long	104
-	.long	106
+	.long	109
+	.long	111
 	.long	.Lxta.loop_labels0
 .cc_bottom cc_21
 .Lentries_end7:

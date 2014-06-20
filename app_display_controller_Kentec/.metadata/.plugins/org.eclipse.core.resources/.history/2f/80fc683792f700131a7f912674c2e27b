@@ -1,0 +1,90 @@
+<? xml version =" 1.0 " encoding =" UTF -8 "?>
+
+<Network xmlns="http://www.xmos.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.xmos.com http://www.xmos.com" >
+        
+    <Type>Device</Type>
+    <Name>XS1-L8A-64-TQ128-C5 Device</Name>
+    <Declarations>
+        <Declaration>tileref tile[1]</Declaration>
+    </Declarations>
+    
+    
+    <Packages>
+        <Package Id="0" Type="XS1-LnA-64-TQ128" >
+            <Nodes>
+                <Node Id="0" InPackageId="0" Type="XS1-L8A-64" Oscillator="25MHz" SystemFrequency="500MHz">
+                    <Boot>
+                        <Source Location="SPI:bootFlash" />
+                    </Boot>
+                    <Tile Number="0" Reference="tile[0]">
+                        <Port Location="XS1_PORT_1A" Name="PORT_SPI_MISO"/>
+                        <Port Location="XS1_PORT_1B" Name="PORT_SPI_SS"/>
+                        <Port Location="XS1_PORT_1C" Name="PORT_SPI_CLK"/>
+                        <Port Location="XS1_PORT_1D" Name="PORT_SPI_MOSI"/>
+                        <Port Location="XS1_PORT_8D" Name="PORT_SPI_DISABLE"/>
+
+                        <Port Location="XS1_PORT_1B" Name="PORT_ETH_RXCLK_0"/>
+                        <Port Location="XS1_PORT_4A" Name="PORT_ETH_RXD_0"/>
+                        <Port Location="XS1_PORT_4B" Name="PORT_ETH_TXD_0"/>
+                        <Port Location="XS1_PORT_1C" Name="PORT_ETH_RXDV_0"/>
+                        <Port Location="XS1_PORT_1F" Name="PORT_ETH_TXEN_0"/>
+                        <Port Location="XS1_PORT_1G" Name="PORT_ETH_TXCLK_0"/>
+                        <Port Location="XS1_PORT_4C" Name="PORT_ETH_MDIOC_0"/>
+                        <Port Location="XS1_PORT_8A" Name="PORT_ETH_MDIOFAKE_0"/>
+                        <Port Location="XS1_PORT_4D" Name="PORT_ETH_INT_ERR_0"/>
+
+                        <Port Location="XS1_PORT_1J" Name="PORT_ETH_RXCLK_1"/>
+                        <Port Location="XS1_PORT_4E" Name="PORT_ETH_RXD_1"/>
+                        <Port Location="XS1_PORT_4F" Name="PORT_ETH_TXD_1"/>
+                        <Port Location="XS1_PORT_1K" Name="PORT_ETH_RXDV_1"/>
+                        <Port Location="XS1_PORT_1L" Name="PORT_ETH_TXEN_1"/>
+                        <Port Location="XS1_PORT_1I" Name="PORT_ETH_TXCLK_1"/>
+                        <Port Location="XS1_PORT_1M" Name="PORT_ETH_MDIO_1"/>
+                        <Port Location="XS1_PORT_1N" Name="PORT_ETH_MDC_1"/>
+                        <Port Location="XS1_PORT_1O" Name="PORT_ETH_INT_1"/>
+                        <Port Location="XS1_PORT_1P" Name="PORT_ETH_ERR_1"/>
+                        <Port Location="XS1_PORT_1B" Name="PORT_ETH_RXCLK_2"></Port>
+                    	<Port Location="XS1_PORT_4A" Name="PORT_ETH_RXD_2"></Port>
+                    	<Port Location="XS1_PORT_4B" Name="PORT_ETH_TXD_2"></Port>
+                    	<Port Location="XS1_PORT_1C" Name="PORT_ETH_RXDV_2"></Port>
+                    	<Port Location="XS1_PORT_1F" Name="PORT_ETH_TXEN_2"></Port>
+                    	<Port Location="XS1_PORT_1G" Name="PORT_ETH_TXCLK_2"></Port>
+                    	<Port Location="XS1_PORT_4C" Name="PORT_ETH_MDIOC_2"></Port>
+                    	<Port Location="XS1_PORT_8A" Name="PORT_ETH_MDIOFAKE_2"></Port>
+                    	<Port Location="XS1_PORT_4D" Name="PORT_ETH_INT_ERR_2"></Port>
+                    	<Port Location="XS1_PORT_1J" Name="PORT_ETH_RXCLK_3"></Port>
+                    	<Port Location="XS1_PORT_4E" Name="PORT_ETH_RXD_3"></Port>
+                    	<Port Location="XS1_PORT_4F" Name="PORT_ETH_TXD_3"></Port>
+                    	<Port Location="XS1_PORT_1K" Name="PORT_ETH_RXDV_3"></Port>
+                    	<Port Location="XS1_PORT_1L" Name="PORT_ETH_TXEN_3"></Port>
+                    	<Port Location="XS1_PORT_1I" Name="PORT_ETH_TXCLK_3"></Port>
+                    	<Port Location="XS1_PORT_8D" Name="PORT_ETH_MDIOC_3"></Port>
+                    	<Port Location="XS1_PORT_1M" Name="PORT_ETH_MDIO_3"></Port>
+                    	<Port Location="XS1_PORT_1N" Name="PORT_ETH_MDC_3"></Port>
+                    	<Port Location="XS1_PORT_1O" Name="PORT_ETH_INT_3"></Port>
+                    	<Port Location="XS1_PORT_1P" Name="PORT_ETH_ERR_3"></Port><!--MUART PORTS-->
+                    	<Port Location="XS1_PORT_8B" Name="PORT_UART_TX"></Port>
+                    	<Port Location="XS1_PORT_8A" Name="PORT_UART_RX"></Port>
+                    	<Port Location="XS1_PORT_1F" Name="PORT_UART_REF"></Port>
+                    </Tile>
+                </Node>
+            </Nodes>
+        </Package> 
+    </Packages>
+
+    <ExternalDevices>
+        <Device NodeId="0" Name="bootFlash" Class="SPIFlash" Type="M25P16" Tile="0">
+            <Attribute Name="PORT_SPI_MISO" Value="PORT_SPI_MISO" />
+            <Attribute Name="PORT_SPI_SS" Value="PORT_SPI_SS" />
+            <Attribute Name="PORT_SPI_CLK" Value="PORT_SPI_CLK" />
+            <Attribute Name="PORT_SPI_MOSI" Value="PORT_SPI_MOSI" />
+        </Device>
+    </ExternalDevices>
+
+    <JTAGChain>
+        <JTAGDevice NodeId="0"/>
+    </JTAGChain>
+
+</Network>

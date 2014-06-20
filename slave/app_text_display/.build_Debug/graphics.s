@@ -1,4 +1,4 @@
-	.file	"J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/graphics.xc"
+	.file	"E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/graphics.xc"
 
 	.inline_definition delay_seconds
 	.inline_definition delay_milliseconds
@@ -8,10 +8,10 @@
 	.set usage.anon.2,0
 	.set usage.anon.3,0
 	.set usage.anon.4,0
-	.globread get_background_color,usage.anon.3,"J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/graphics.xc:30: error: previously used here"
-	.globread get_foreground_color,usage.anon.4,"J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/graphics.xc:25: error: previously used here"
-	.globwrite set_foreground_color,usage.anon.4,"J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/graphics.xc:20: error: previously used here"
-	.globwrite set_background_color,usage.anon.3,"J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/graphics.xc:13: error: previously used here"
+	.globread get_background_color,usage.anon.3,"E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/graphics.xc:30: error: previously used here"
+	.globread get_foreground_color,usage.anon.4,"E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/graphics.xc:25: error: previously used here"
+	.globwrite set_foreground_color,usage.anon.4,"E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/graphics.xc:20: error: previously used here"
+	.globwrite set_background_color,usage.anon.3,"E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/graphics.xc:13: error: previously used here"
 	.call usage.anon.2,delay_ticks_longlong
 	.call usage.anon.1,delay_ticks_longlong
 	.call usage.anon.0,delay_ticks_longlong
@@ -46,8 +46,8 @@
 	.set get_background_color.locnonotificationselect, 1
 
 
-	.file	1 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/graphics.xc"
-	.file	2 "J:\\ProjectEstimated2014\\XMOS\\HMI\\REF_8080_RGB\\HMI\\slave\\app_text_display\\.build_Debug\\timer.h"
+	.file	1 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/graphics.xc"
+	.file	2 "E:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\app_text_display\\.build_Debug\\timer.h"
 	.section	.debug_info,"",@progbits
 .Lsection_info:
 	.section	.debug_abbrev,"",@progbits
@@ -232,7 +232,7 @@ fg_color:
 .Lsection_end1:
 	.section	.debug_info,"",@progbits
 .Linfo_begin1:
-	.long	841
+	.long	819
 	.short	2
 	.long	.Labbrev_begin
 	.byte	4
@@ -240,11 +240,11 @@ fg_color:
 	.ascii	 "XMOS 32-bit XC Compiler Community_13.1.0 (build 12073, May-09-2014)"
 	.byte	0
 	.short	49152
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/graphics.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/graphics.xc"
 	.byte	0
 	.long	0
 	.long	.Lsection_line
-	.ascii	 "J:\\ProjectEstimated2014\\XMOS\\HMI\\REF_8080_RGB\\HMI\\slave\\app_text_display\\.build_Debug"
+	.ascii	 "E:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\app_text_display\\.build_Debug"
 	.byte	0
 	.byte	1
 	.byte	2
@@ -257,7 +257,7 @@ fg_color:
 	.byte	0
 	.ascii	 "bg_color"
 	.byte	0
-	.long	276
+	.long	254
 	.byte	1
 	.byte	5
 	.byte	5
@@ -268,7 +268,7 @@ fg_color:
 	.byte	0
 	.ascii	 "fg_color"
 	.byte	0
-	.long	276
+	.long	254
 	.byte	1
 	.byte	6
 	.byte	5
@@ -287,7 +287,7 @@ fg_color:
 	.byte	0
 	.byte	2
 	.byte	46
-	.long	828
+	.long	806
 	.byte	0
 	.byte	4
 	.ascii	 "delay_milliseconds"
@@ -302,7 +302,7 @@ fg_color:
 	.byte	0
 	.byte	2
 	.byte	54
-	.long	828
+	.long	806
 	.byte	0
 	.byte	4
 	.ascii	 "delay_microseconds"
@@ -317,7 +317,7 @@ fg_color:
 	.byte	0
 	.byte	2
 	.byte	62
-	.long	828
+	.long	806
 	.byte	0
 	.byte	6
 	.ascii	 "set_background_color"
@@ -337,7 +337,7 @@ fg_color:
 	.byte	0
 	.byte	1
 	.byte	9
-	.long	276
+	.long	254
 	.long	.Ldebug_loc0+0
 	.byte	8
 	.long	.Lfunc_begin0
@@ -350,13 +350,13 @@ fg_color:
 	.byte	0
 	.byte	1
 	.byte	11
-	.long	828
+	.long	806
 	.byte	9
 	.ascii	 "col"
 	.byte	0
 	.byte	1
 	.byte	11
-	.long	828
+	.long	806
 	.byte	0
 	.byte	0
 	.byte	0
@@ -378,7 +378,7 @@ fg_color:
 	.byte	0
 	.byte	1
 	.byte	17
-	.long	276
+	.long	254
 	.long	.Ldebug_loc2+0
 	.byte	0
 	.byte	10
@@ -388,7 +388,7 @@ fg_color:
 	.byte	0
 	.byte	1
 	.byte	24
-	.long	276
+	.long	254
 	.byte	1
 	.long	.Lfunc_begin2
 	.long	.Lfunc_end2
@@ -402,7 +402,7 @@ fg_color:
 	.byte	0
 	.byte	1
 	.byte	29
-	.long	276
+	.long	254
 	.byte	1
 	.long	.Lfunc_begin3
 	.long	.Lfunc_end3
@@ -588,19 +588,19 @@ fg_color:
 	.long	.Linfo_begin1
 .Lset1 = .Linfo_end1-.Linfo_begin1
 	.long	.Lset1
-	.long	402
+	.long	380
 .asciiz "delay_milliseconds"
-	.long	631
+	.long	609
 .asciiz "set_foreground_color"
-	.long	458
+	.long	436
 .asciiz "delay_microseconds"
-	.long	706
+	.long	684
 .asciiz "get_foreground_color"
-	.long	514
+	.long	492
 .asciiz "set_background_color"
-	.long	356
+	.long	334
 .asciiz "delay_seconds"
-	.long	767
+	.long	745
 .asciiz "get_background_color"
 	.long	0
 .Lpubnames_end1:
@@ -648,31 +648,31 @@ fg_color:
 .Lentries_start0:
 	.long	.Lentries_end1-.Lentries_start0
 	.long	0
-	.ascii	 "J:\\ProjectEstimated2014\\XMOS\\HMI\\REF_8080_RGB\\HMI\\slave\\app_text_display\\.build_Debug"
+	.ascii	 "E:\\Pro2014\\xmos\\SW\\LCD_7_INCH_EVALUATE\\slave\\app_text_display\\.build_Debug"
 	.byte	0
 .cc_top cc_0,.Lxtalabel0
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/graphics.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/graphics.xc"
 	.byte	0
 	.long	10
 	.long	15
 	.long	.Lxtalabel0
 .cc_bottom cc_0
 .cc_top cc_1,.Lxtalabel1
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/graphics.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/graphics.xc"
 	.byte	0
 	.long	18
 	.long	21
 	.long	.Lxtalabel1
 .cc_bottom cc_1
 .cc_top cc_2,.Lxtalabel2
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/graphics.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/graphics.xc"
 	.byte	0
 	.long	24
 	.long	26
 	.long	.Lxtalabel2
 .cc_bottom cc_2
 .cc_top cc_3,.Lxtalabel3
-	.ascii	 "J:/ProjectEstimated2014/XMOS/HMI/REF_8080_RGB/HMI/slave/module_kentec_text_display/src/graphics.xc"
+	.ascii	 "E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/slave/module_kentec_text_display/src/graphics.xc"
 	.byte	0
 	.long	29
 	.long	31

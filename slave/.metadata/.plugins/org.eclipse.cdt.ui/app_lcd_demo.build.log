@@ -1,0 +1,15 @@
+
+**** Build of configuration Default for project app_lcd_demo ****
+
+xmake all 
+Using modules: module_lcd module_slicekit_support
+Creating dependencies for slicekit_init.S
+Creating dependencies for lcd_assembly.S
+Creating dependencies for lcd.xc
+Creating dependencies for app_lcd_demo.xc
+Compiling app_lcd_demo.xc
+Compiling lcd.xc
+Compiling lcd_assembly.S
+Compiling slicekit_init.S
+Creating app_lcd_demo.xe
+Build Complete
