@@ -7,7 +7,7 @@
 #include "touch_controller_lib.h"
 #include <print.h>
 
-#define DEF_KETECK
+//#define DEF_KETECK
 
 #ifdef DEF_XKIT
 on tile[0] : lcd_ports lcdports = {
@@ -35,7 +35,7 @@ on tile[0] :out port  bo = XS1_PORT_1G;
  * Ensure `XMOS LINK` is off. Build and run.
  */
 
-#define IMAGE_COUNT (1)
+#define IMAGE_COUNT (6)
 char images[IMAGE_COUNT][15] = { "image_0.tga", "image_1.tga","image_2.tga",
 		"image_3.tga","image_4.tga","image_5.tga"};
 #ifdef DEF_XKIT

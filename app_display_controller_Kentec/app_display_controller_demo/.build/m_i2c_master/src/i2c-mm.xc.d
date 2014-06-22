@@ -1,5 +1,5 @@
 .build/m_i2c_master/src/i2c-mm.xc.d ./.build/m_i2c_master/src/i2c-mm.xc.o: \
-  E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/app_display_controller_Kentec/module_i2c_master/src/i2c-mm.xc \
-  E:/Pro2014/xmos/SW/LCD_7_INCH_EVALUATE/app_display_controller_Kentec/module_i2c_master/src/i2c.h
+  J:/ProjectEstimated2014/TEMP/lcd_temp_0622/LCD_7_INCH_EVALUATE/app_display_controller_Kentec/module_i2c_master/src/i2c-mm.xc \
+  J:/ProjectEstimated2014/TEMP/lcd_temp_0622/LCD_7_INCH_EVALUATE/app_display_controller_Kentec/module_i2c_master/src/i2c.h
 
 
